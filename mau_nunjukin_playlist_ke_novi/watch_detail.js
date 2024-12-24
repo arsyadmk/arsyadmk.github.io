@@ -61,9 +61,27 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	ja48: {
+	a48: {
 		"mk_pNC5Y1XY": "Hissatsu Teleport" //必殺テレポート | ErhVPyDNjAU qBNYWm_3mts
-		, "BXXI_MnaA0Y": "Hissatsu Teleport"
+		,"desIW-jMxtQ":"Seventeen"
+		,"JcSatWaR3zA":"Yuhio Miteiruka?" //A3aWnOBMLNQ
+		,"794M8Av1e0Q":"Only today"
+		,"V-BA-mWPxsc":"Baby!Baby!Baby!"
+		// ,"":""
+		// ,"":""
+		// ,"":""
+		// ,"":""
+		// ,"":""
+	},
+
+	j48: {
+		"BXXI_MnaA0Y": "Hissatsu Teleport"
+		,"SUV6CI43Iv0":"Seventeen"
+		,"VeSCkNSa-Bw":"Yuhio Miteiruka?"
+		,"fSDAJkbZUm8":"Only today"
+		,"NthQFNOjFrk":"Baby!Baby!Baby!"
+		// ,"":""
+		// ,"":""
 		// ,"":""
 		// ,"":""
 		// ,"":""
