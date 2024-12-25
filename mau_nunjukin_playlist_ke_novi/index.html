@@ -79,9 +79,9 @@
 	<nav class="navbar navbar-dark bg-dark sticky-top d-flex justify-content-center"> <!-- fixed-bottom -->
 		<span class="navbar-text">
 			<button class="btn btn-sm btn-dark" onclick="openpopupmodal('n')">n</button>
-			<button class="btn btn-sm btn-dark" onclick="openpopupmodal('m')">-</button>
-			<button class="btn btn-sm btn-dark" onclick="openpopupmodal('r')">r</button>
-			<button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalListYt">--</button>
+			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('m')">-</button> -->
+			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('r')">r</button> -->
+			<!-- <button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalListYt">--</button> -->
 			<a target="_blank" href="" id="currentlink"><button class="btn btn-sm btn-dark" id="currentlinkbtn">YT</button></a>
 			<a target="_blank" href="" id="currentlinkm"><button class="btn btn-sm btn-dark" id="currentlinkbtnm">MYT</button></a>
 			<a target="_blank" href="watch_detail.js"><button class="btn btn-sm btn-dark">WD</button></a>
@@ -105,33 +105,33 @@
 </html>
 
 <script type="text/javascript">
-	$(document).ready(function () {
-		loadContentSeletListYt();
-		$('#modalListYt').on('shown.bs.modal', function () {
-			$('#selectListYt').focus();
-		});
-		$('.childHideShow').click(function () {
-			var classChild = this.id.replace('optgroup', '');
-			const elementClassChild = document.getElementsByClassName("child" + classChild);
-			if ($('.child' + classChild).hasClass("d-none")) {
-				$('.child' + classChild).removeClass("d-none");
-				$('.child' + classChild).addClass("d-block");
-			} else if ($('.child' + classChild).hasClass("d-block")) {
-				$("#" + this.id).each(function () {
-					var options = $(this).children("option"), length = options.length;
-					if (options.filter(":selected").length == 0) {
-						$('.child' + classChild).removeClass("d-block");
-						$('.child' + classChild).addClass("d-none");
-					}
-				});
-			}
-		});
-		$('.uncheckifselectedagain').dblclick(function () {
-			$("#" + this.id + ":selected").removeAttr("selected");
-			document.getElementById(this.parentNode.id).click();
-			updateValueSelectListYt("selectListYt")
-		});
-	});
+	// $(document).ready(function () {
+	// 	loadContentSeletListYt();
+	// 	$('#modalListYt').on('shown.bs.modal', function () {
+	// 		$('#selectListYt').focus();
+	// 	});
+	// 	$('.childHideShow').click(function () {
+	// 		var classChild = this.id.replace('optgroup', '');
+	// 		const elementClassChild = document.getElementsByClassName("child" + classChild);
+	// 		if ($('.child' + classChild).hasClass("d-none")) {
+	// 			$('.child' + classChild).removeClass("d-none");
+	// 			$('.child' + classChild).addClass("d-block");
+	// 		} else if ($('.child' + classChild).hasClass("d-block")) {
+	// 			$("#" + this.id).each(function () {
+	// 				var options = $(this).children("option"), length = options.length;
+	// 				if (options.filter(":selected").length == 0) {
+	// 					$('.child' + classChild).removeClass("d-block");
+	// 					$('.child' + classChild).addClass("d-none");
+	// 				}
+	// 			});
+	// 		}
+	// 	});
+	// 	$('.uncheckifselectedagain').dblclick(function () {
+	// 		$("#" + this.id + ":selected").removeAttr("selected");
+	// 		document.getElementById(this.parentNode.id).click();
+	// 		updateValueSelectListYt("selectListYt")
+	// 	});
+	// });
 
 	function loadContentSeletListYt() {
 		var count = 0;
@@ -357,11 +357,11 @@
 		var label = document.createElement('label');
 		label.htmlFor = value_send;
 		label.id = "l" + value_send;
-		label.style = "width: 87%";
+		label.style = "width: 82%";
 		label.appendChild(document.createTextNode(value_send));
 		var label2 = document.createElement('label');
 		label2.id = "h" + value_send;
-		label2.style = "width: 5%";
+		label2.style = "width: 10%";
 		label2.appendChild(document.createTextNode(('00' + value_send_2).slice(-3)));
 		label2.onclick = () => { hideshowchild(value_send); };
 		select_j.appendChild(label2);
@@ -405,7 +405,8 @@
 		label.htmlFor = value_send2;
 		label.id = "l" + value_send2;
 		label.style = "width: 90%; display: none; float:left;";
-		label.appendChild(document.createTextNode(value_send3));
+		// label.appendChild(document.createTextNode(value_send3));
+		label.appendChild(document.createTextNode(value_send3.slice(0, 30)));
 		var href = document.createElement('a');
 		href.id = "h" + value_send2;
 		href.style = "width: 5%; display: none; float:left;";
@@ -484,24 +485,22 @@
 
 	function checkvalidation(source) {
 		if (source.classList.contains('all')) {
-			if (source.checked) {
-				$('.chk').each(function () {
-					this.checked = true;
-				});
-			} else {
-				$('.chk').each(function () {
-					this.checked = false;
-				});
+			var chk = document.querySelectorAll(".chk");
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
 			}
 		} else if (source.classList.contains('parent')) {
-			if (source.checked) {
-				$('.chk' + source.id).each(function () {
-					this.checked = true;
-				});
-			} else {
-				$('.chk' + source.id).each(function () {
-					this.checked = false;
-				});
+			var chk = document.querySelectorAll(".chk" + source.id);
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
 			}
 		} else if (source.classList.contains('child')) {
 			var checkcheckboxes = document.getElementsByClassName(source.classList[0]);
@@ -516,7 +515,8 @@
 			}
 		}
 
-		var countallselected = $("[type='checkbox'].child:checked").length;
+		// var countallselected = $("[type='checkbox'].child:checked").length;
+		var countallselected = 0;
 		// var timetemp = (countallselected*4)/60;
 		var timetemp = (countallselected * 4);
 		var time_total = new Date(2000, 0, 0, 0, 0, 0);
@@ -543,5 +543,6 @@
 	}
 </script>
 
-<script src="watch_detail.js"></script>
+<!-- <script src="watch_detail.js"></script> -->
 <!-- <script src="server_local/watch_detail.js"></script> -->
+<script src="https://arsyadmk.github.io/mau_nunjukin_playlist_ke_novi/watch_detail.js"></script>
