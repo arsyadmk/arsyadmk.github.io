@@ -6,6 +6,9 @@ var masterm = "https://music.youtube.com/watch_videos?video_ids=";
 var mastermsingle = "https://music.youtube.com/watch?v=";
 
 var vid_ide = {
+のびさん: {
+"FRRA1X_I5IE": "koiiro" //Mosawo
+}
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心
 		, "vnSeYVFi9VY": "Cosmic Girl"
