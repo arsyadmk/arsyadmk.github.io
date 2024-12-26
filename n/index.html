@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootstrap 500 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- bootstrap 502 -->
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+	<style type="text/css">
+		.modal-body {
+			max-height: calc(100vh - 210px);
+			overflow-y: auto;
+		}
+	</style>
+	<!-- jquery bootstrap 500  -->
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
+	<!-- bootstrap js bundle 502  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+<div id="myModal" class="modal" role="dialog">
+	<!-- modal-sm xs xl lg -->
+	<div class="modal-dialog modal-xs">
+		<div class="modal-content">
+			<div class="modal-body">
+				<form role="form" id="select_j" action="" onsubmit="event.preventDefault(); formSubmit();" enctype="multipart/form-data">
+					<input type="hidden" name="action" id="action">
+				</form>
+			</div>
+			<div class="modal-footer d-block text-center">
+				<div id="setting_pisah">
+					<input type="submit" class="btn-sm" id="submit" onclick="formSubmit();" value="Submit">
+				</div>
+				<input type="checkbox" id="all" class="all" onclick="checkvalidation(this)">
+				<label for="all"> Select/Deselect All</label>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modalListYt" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog modal-xs">
+		<div class="modal-content">
+			<div class="modal-body">
+				<select class="form-select overflow-hidden" id="selectListYt" multiple onchange="updateValueSelectListYt(this.id)" aria-label="multiple select example"></select>
+			</div>
+			<div class="modal-footer">
+				<input type="hidden" id="listIdYtTemp">
+				<input type="hidden" id="listTitleYtTemp">
+				<input type="hidden" id="listIdTitleYtTemp">
+
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="order" id="n" value="n">
+					<label class="form-check-label" for="n">n</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="order" id="m" value="m" checked>
+					<label class="form-check-label" for="m">@</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="order" id="r" value="r">
+					<label class="form-check-label" for="r">r</label>
+				</div>
+
+				<button type="button" class="btn btn-primary" id="btnSubmitListYt" onclick="submitSelectedListYt()">0 | 00:00-00:00</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<body style="background-color: black;">
+	<nav class="navbar navbar-dark bg-dark sticky-top d-flex justify-content-center"> <!-- fixed-bottom -->
+		<span class="navbar-text">
+			<button class="btn btn-sm btn-dark" onclick="openpopupmodal('n')">n</button>
+			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('m')">-</button> -->
+			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('r')">r</button> -->
+			<!-- <button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalListYt">--</button> -->
+			<a target="_blank" href="" id="currentlink"><button class="btn btn-sm btn-dark" id="currentlinkbtn">YT</button></a>
+			<a target="_blank" href="" id="currentlinkm"><button class="btn btn-sm btn-dark" id="currentlinkbtnm">MYT</button></a>
+			<a target="_blank" href="watch_detail.js"><button class="btn btn-sm btn-dark">WD</button></a>
+		</span>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="overflow-auto" style="color:grey;">
+					<pre class='m-1' id="listvid">
+					</pre>
+				</div>
+			</div>
+			<div class="col-2">
+				<!-- <iframe src="" id="iframevid"></iframe> -->
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+	// $(document).ready(function () {
+	// 	loadContentSeletListYt();
+	// 	$('#modalListYt').on('shown.bs.modal', function () {
+	// 		$('#selectListYt').focus();
+	// 	});
+	// 	$('.childHideShow').click(function () {
+	// 		var classChild = this.id.replace('optgroup', '');
+	// 		const elementClassChild = document.getElementsByClassName("child" + classChild);
+	// 		if ($('.child' + classChild).hasClass("d-none")) {
+	// 			$('.child' + classChild).removeClass("d-none");
+	// 			$('.child' + classChild).addClass("d-block");
+	// 		} else if ($('.child' + classChild).hasClass("d-block")) {
+	// 			$("#" + this.id).each(function () {
+	// 				var options = $(this).children("option"), length = options.length;
+	// 				if (options.filter(":selected").length == 0) {
+	// 					$('.child' + classChild).removeClass("d-block");
+	// 					$('.child' + classChild).addClass("d-none");
+	// 				}
+	// 			});
+	// 		}
+	// 	});
+	// 	$('.uncheckifselectedagain').dblclick(function () {
+	// 		$("#" + this.id + ":selected").removeAttr("selected");
+	// 		document.getElementById(this.parentNode.id).click();
+	// 		updateValueSelectListYt("selectListYt")
+	// 	});
+	// });
+
+	function loadContentSeletListYt() {
+		var count = 0;
+		var count_song_all = 0;
+		for (var key in vid_ide) {
+			var count_song = 0;
+			if (vid_ide.hasOwnProperty(key)) {
+				for (const [key2] of Object.entries(vid_ide[key])) {
+					count_song++;
+				}
+				addOptgroupSelectListYt(key, ('00' + count_song).slice(-3));
+				for (const [key2] of Object.entries(vid_ide[key])) {
+					addOptionSelectListYt(vid_ide[key][key2], key2, key);
+				}
+			}
+			count++;
+			count_song_all = count_song_all + count_song;
+		}
+		var select = document.getElementById('selectListYt');
+		select.size = select.length;
+	}
+
+	function addOptgroupSelectListYt(valLabel, valLabel2) {
+		var x = document.getElementById("selectListYt");
+		var optgroup = document.createElement("optgroup");
+		optgroup.id = "optgroup" + valLabel;
+		optgroup.label = valLabel2 + " - " + valLabel;
+		optgroup.classList.add("border-bottom", "childHideShow");
+		x.add(optgroup);
+	}
+
+	function addOptionSelectListYt(valText, valValue, valIdOpt) {
+		var x = document.getElementById("optgroup" + valIdOpt);
+		var option = document.createElement("option");
+		option.text = valText;
+		option.value = valValue;
+		option.id = valValue;
+		option.classList.add("child" + valIdOpt, "uncheckifselectedagain", "d-none");
+		x.appendChild(option);
+	}
+
+	function updateValueSelectListYt(valId) {
+		elementSelectListYt = document.getElementById(valId);
+		var list_fix_id = [];
+		var list_fix_title = [];
+		var list_fix_id_title = [];
+		var options = elementSelectListYt && elementSelectListYt.options;
+		var opt;
+		var id_selected_count = 0;
+
+		for (var i = 0, iLen = options.length; i < iLen; i++) {
+			opt = options[i];
+			if (opt.selected) {
+				list_fix_id.push(opt.value);
+				list_fix_title.push(opt.text);
+				list_fix_id_title.push(opt.value + '[|]' + opt.text);
+				id_selected_count++;
+			}
+		}
+
+		var timetemp = (id_selected_count * 4);
+		var time_total = new Date(2000, 0, 0, 0, 0, 0);
+		var time_from_now = new Date();
+		time_from_now.setMinutes(new Date().getMinutes() + timetemp);
+		time_total.setMinutes(timetemp);
+
+		document.getElementById("listIdYtTemp").value = list_fix_id;
+		document.getElementById("listTitleYtTemp").value = list_fix_title;
+		document.getElementById("listIdTitleYtTemp").value = list_fix_id_title;
+		document.getElementById("btnSubmitListYt").innerHTML = id_selected_count + " | " + ('0' + time_total.getHours()).slice(-2) + ":" + ('0' + time_total.getMinutes()).slice(-2) + "-" + ('0' + time_from_now.getHours()).slice(-2) + ":" + ('0' + time_from_now.getMinutes()).slice(-2)
+	}
+
+	function submitSelectedListYt() {
+		order_temp = document.querySelector('input[name="order"]:checked').value;
+		setframe(order_temp, document.getElementById("listIdTitleYtTemp").value.toString().split(','));
+		$('#modalListYt').modal('hide');
+	}
+
+	// var qrcode1 = new QRCode("qrcode1");
+	// qrcode1.makeCode(master+join_normal);
+
+	// var cek_length = master+join_normal;
+	// alert(cek_length.length);
+
+	function setframe(value_get, value_get2) {
+		var ids_all = '';
+		var titles_all = '';
+		var ids_all_temp = '';
+		var titles_all_temp = '';
+		if (value_get == 'n') {
+			for (var i = 0; i <= value_get2.length - 1; i++) {
+				if (i != value_get2.length - 1) {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0] + ',';
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1] + ',';
+				} else {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0];
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1];
+				}
+			}
+		} else if (value_get == 'r') {
+			for (var i = value_get2.length - 1; i >= 0; i--) {
+				if (i != 0) {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0] + ',';
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1] + ',';
+				} else {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0];
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1];
+				}
+			}
+		} else if (value_get == 'm') {
+			shuffleArray(value_get2);
+			for (var i = value_get2.length - 1; i >= 0; i--) {
+				if (i != 0) {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0] + ',';
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1] + ',';
+				} else {
+					ids_all_temp = ids_all_temp + value_get2[i].split("[|]")[0];
+					titles_all_temp = titles_all_temp + value_get2[i].split("[|]")[1];
+				}
+			}
+		} else if (value_get == 'v') {
+			document.getElementById("frameyt").src = '';
+		} else {
+			alert('ERROR');
+		}
+		var ids_all = ids_all_temp;
+		var titles_all = titles_all_temp;
+		document.getElementById("currentlink").href = master2 + ids_all;
+		document.getElementById("currentlinkbtn").innerHTML = "YT";
+		document.getElementById("currentlinkm").href = masterm + ids_all;
+		document.getElementById("currentlinkbtnm").innerHTML = "MYT";
+		// document.getElementById("iframevid").src = "https://www.youtube.com/embed/s_Qi4WwxE9o&list=TLGGMAW5QimyWJAwNDA2MjAyMw?controls=0";
+		setlistvid(ids_all.toString().split(','), titles_all.toString().split(','));
+	}
+
+	function setlistvid(array1, array2) {
+		var split_ids_all = array1;
+		var split_titles_all = array2;
+		var ids_al_list = "";
+		for (let i = 0; i < split_ids_all.length; i++) {
+			var no = i + 1;
+			ids_al_list += "<a href='" + master3 + split_ids_all[i] + "' target='_blank'>Y</a>" + "-" + "<a href='" + mastermsingle + split_ids_all[i] + "' target='_blank'>M</a>" + " " + ('00' + no).slice(-3) + ". " + split_ids_all[i] + " : " + split_titles_all[i] + "<br>";
+		}
+		document.getElementById("listvid").innerHTML = ids_al_list;
+	}
+
+	function shuffleArray(array) {
+		for (var i = array.length - 1; i > 0; i--) {
+			var j = Math.floor(Math.random() * (i + 1));
+			var temp = array[i];
+			array[i] = array[j];
+			array[j] = temp;
+		}
+	}
+
+	function hideshow(value_get) {
+		var x = document.getElementById(value_get);
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+
+	function openpopupmodal(value_send) {
+		document.getElementById("myModal").style.display = "block";
+
+		if (document.getElementById("action").value == '') {
+			document.getElementById("action").value = value_send;
+			document.getElementById("all").checked = true;
+
+			var count = 0;
+			var count_song_all = 0;
+			var objLength = Object.keys(vid_ide).length;
+			for (var key in vid_ide) {
+				var count_song = 0;
+				if (vid_ide.hasOwnProperty(key)) {
+					for (const [key2] of Object.entries(vid_ide[key])) {
+						count_song++;
+					}
+					addSelect(key, count_song);
+					for (const [key2] of Object.entries(vid_ide[key])) {
+						addSelectChild(key, key2, vid_ide[key][key2]);
+					}
+				}
+				count++;
+				count_song_all = count_song_all + count_song;
+			}
+			addTotalPisah(count_song_all);
+			// addSubmit();
+		} else {
+			document.getElementById("action").value = value_send;
+		}
+	}
+
+	function addTotal(value_send) {
+		var select_j = document.getElementById("select_j");
+		var label = document.createElement('label');
+		label.style = "width: 100%";
+		label.appendChild(document.createTextNode(value_send));
+		select_j.appendChild(label);
+	}
+
+	function addTotalPisah(value_send) {
+		var setting_pisah = document.getElementById("setting_pisah");
+		var label = document.createElement('label');
+		label.style = "width: 100%";
+		label.appendChild(document.createTextNode(value_send));
+		setting_pisah.appendChild(label);
+	}
+
+	function addSelect(value_send, value_send_2) {
+		var select_j = document.getElementById("select_j");
+		var checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.id = value_send;
+		checkbox.name = value_send;
+		checkbox.value = value_send;
+		checkbox.style = "width: 5%";
+		checkbox.checked = true;
+		checkbox.classList.add("chk", "parent");
+		checkbox.onclick = () => { checkvalidation(checkbox); };
+		var label = document.createElement('label');
+		label.htmlFor = value_send;
+		label.id = "l" + value_send;
+		label.style = "width: 82%";
+		label.appendChild(document.createTextNode(value_send));
+		var label2 = document.createElement('label');
+		label2.id = "h" + value_send;
+		label2.style = "width: 10%";
+		label2.appendChild(document.createTextNode(('00' + value_send_2).slice(-3)));
+		label2.onclick = () => { hideshowchild(value_send); };
+		select_j.appendChild(label2);
+		select_j.appendChild(checkbox);
+		select_j.appendChild(label);
+	}
+
+	function hideshowchild(value_send) {
+		var checkcheckboxes = document.getElementsByClassName('chk' + value_send);
+		var bool_check = 0;
+		for (var i = 0; i < checkcheckboxes.length; i++) {
+			if (checkcheckboxes[i].style.display == "none") { bool_check = 1; }
+		}
+		if (bool_check == 1) {
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				checkcheckboxes[i].style.display = "block";
+				document.getElementById("l" + checkcheckboxes[i].id).style.display = "block";
+				document.getElementById("h" + checkcheckboxes[i].id).style.display = "block";
+			}
+		} else {
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				checkcheckboxes[i].style.display = "none";
+				document.getElementById("l" + checkcheckboxes[i].id).style.display = "none";
+				document.getElementById("h" + checkcheckboxes[i].id).style.display = "none";
+			}
+		}
+	}
+
+	function addSelectChild(value_send, value_send2, value_send3) {
+		var select_j = document.getElementById("select_j");
+		var checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.id = value_send2;
+		checkbox.name = value_send2;
+		checkbox.value = value_send2;
+		checkbox.style = "width: 5%; display: none; float:left; margin-top: 5px;";
+		checkbox.checked = true;
+		checkbox.classList.add("chk" + value_send, value_send, "chk", "child");
+		checkbox.onclick = () => { checkvalidation(checkbox); };
+		var label = document.createElement('label');
+		label.htmlFor = value_send2;
+		label.id = "l" + value_send2;
+		label.style = "width: 90%; display: none; float:left;";
+		// label.appendChild(document.createTextNode(value_send3));
+		label.appendChild(document.createTextNode(value_send3.slice(0, 30)));
+		var href = document.createElement('a');
+		href.id = "h" + value_send2;
+		href.style = "width: 5%; display: none; float:left;";
+		href.appendChild(document.createTextNode("L"));
+		href.setAttribute('href', "https://www.youtube.com/watch?v=" + value_send2);
+		select_j.appendChild(checkbox);
+		select_j.appendChild(label);
+		select_j.appendChild(href);
+	}
+
+	function addSubmit() {
+		var countallselected = $("[type='checkbox'].child:checked").length;
+
+		var select_j = document.getElementById("select_j");
+		var submit = document.createElement('input');
+		submit.type = "submit";
+		submit.id = "submit";
+		submit.value = "Submit (" + countallselected + ")";
+		submit.style = "width: 98%; margin: 3px";
+		submit.classList.add("btn-sm");
+		select_j.appendChild(submit);
+	}
+
+	function rmvSelect(value_send) {
+		var select = value_send;
+		var elementSelect = document.getElementById(select);
+		elementSelect.parentNode.removeChild(elementSelect);
+		var label = "l" + value_send;
+		var elementLabel = document.getElementById(label);
+		elementLabel.parentNode.removeChild(elementLabel);
+	}
+
+	function rmvSubmit() {
+		var elementSubmit = document.getElementById('submit');
+		elementSubmit.parentNode.removeChild(elementSubmit);
+	}
+
+	function closepopupmodal() {
+		document.getElementById("myModal").style.display = "none";
+		// document.getElementById("all").checked = true;
+		// document.getElementById("action").value = '';
+
+		// var count = 0;
+		// var objLength= Object.keys(vid_ide).length;
+		// for (var key in vid_ide) {
+		// 	if (vid_ide.hasOwnProperty(key)) {
+		// 		rmvSelect(key);
+		// 	}
+		// 	count++;
+		// 	if (count == objLength){
+		// 		rmvSubmit();
+		// 	}
+		// }
+	}
+
+	function formSubmit() {
+		var vid_id = [];
+		var vid_title = [];
+		var vid_id_title = [];
+		for (var key in vid_ide) {
+			if (vid_ide.hasOwnProperty(key)) {
+				if (document.getElementById(key).checked == true) {
+					for (const [key2] of Object.entries(vid_ide[key])) {
+						if (document.getElementById(key2).checked == true) {
+							// vid_id.push(key2);
+							// vid_title.push(document.getElementById("l"+key2).innerHTML);
+							vid_id_title.push(key2 + '[|]' + document.getElementById("l" + key2).innerHTML);
+						}
+					}
+				}
+			}
+		}
+		setframe(document.getElementById('action').value, vid_id_title.toString().split(','));
+		closepopupmodal();
+	}
+
+	function checkvalidation(source) {
+		if (source.classList.contains('all')) {
+			var chk = document.querySelectorAll(".chk");
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
+			}
+		} else if (source.classList.contains('parent')) {
+			var chk = document.querySelectorAll(".chk" + source.id);
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
+			}
+		} else if (source.classList.contains('child')) {
+			var checkcheckboxes = document.getElementsByClassName(source.classList[0]);
+			var bool_check = 0;
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				if (checkcheckboxes[i].checked) { bool_check = 1; }
+			}
+			if (bool_check == 1) {
+				document.getElementById(source.classList[1]).checked = true;
+			} else {
+				document.getElementById(source.classList[1]).checked = false;
+			}
+		}
+
+		// var countallselected = $("[type='checkbox'].child:checked").length;
+		var countallselected = 0;
+		// var timetemp = (countallselected*4)/60;
+		var timetemp = (countallselected * 4);
+		var time_total = new Date(2000, 0, 0, 0, 0, 0);
+		var time_from_now = new Date();
+		time_from_now.setMinutes(new Date().getMinutes() + timetemp);
+		time_total.setMinutes(timetemp);
+		var order;
+		if (document.getElementById('action').value == 'n') {
+			order = 'Normal - ';
+		} else if (document.getElementById('action').value == 'r') {
+			order = 'Reverse - ';
+		} else if (document.getElementById('action').value == 'm') {
+			order = 'Random - ';
+		} else {
+			order = 'Error - ';
+		}
+		document.getElementById("submit").value = order + "Submit (" + ('00' + countallselected).slice(-3) + "id (" + ('0' + time_total.getHours()).slice(-2) + ":" + ('0' + time_total.getMinutes()).slice(-2) + " - " + ('0' + time_from_now.getHours()).slice(-2) + ":" + ('0' + time_from_now.getMinutes()).slice(-2) + "WIB))";
+	};
+
+	window.onclick = function (event) {
+		if (event.target == document.getElementById('myModal')) {
+			closepopupmodal();
+		}
+	}
+</script>
+
+<!-- <script src="watch_detail.js"></script> -->
+<!-- <script src="server_local/watch_detail.js"></script> -->
+<script src="https://arsyadmk.github.io/mau_nunjukin_playlist_ke_novi/watch_detail.js"></script>
