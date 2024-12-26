@@ -7,8 +7,8 @@ var mastermsingle = "https://music.youtube.com/watch?v=";
 
 var vid_ide = {
 	のびさん: {
-		"FRRA1X_I5IE": "koiiro" //Mosawo HloQXQK_aQA
-		,"Egy8RZKxC5k": "Aitai" //Mosawo
+		"FRRA1X_I5IE": "もさを - koiiro" //Mosawo HloQXQK_aQA
+		,"Egy8RZKxC5k": "もさを - Aitai" //Mosawo
 	},
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心
