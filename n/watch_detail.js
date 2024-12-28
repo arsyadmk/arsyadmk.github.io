@@ -9,6 +9,7 @@ var vid_ide = {
 	のびさん: {
 		"FRRA1X_I5IE": "もさを - koiiro" //Mosawo HloQXQK_aQA
 		,"Egy8RZKxC5k": "もさを - Aitai" //Mosawo
+		,"8RmZFUxos3E": "もさを - Gyutto" //Mosawo
 	},
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心
