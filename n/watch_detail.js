@@ -93,20 +93,20 @@ var vid_ide = {
 		// ,"":""
 	},
 
-	knnw: {
+	Kimi_no_Na_wa: {
 		//Kimi no Na wa.						myanimelist.net/anime/32281		mov1-16
 		"PDSkFeMVNFs": "zenzenzen"
 		, "MgNItWdfEIU": "sparkle"
 		, "n89SKAymNfA": "nandemonaiya"
 	},
 
-	knk: {
+	Koe_no_Katachi: {
 		//Koe no Katachi						myanimelist.net/anime/28851		mov1-16
 		"sAzNLC1Lu7Q": "Koi wo Shita no wa"
 		//https://m.mangabat.com/read-fx362464
 	},
 
-	tnk: {
+	Tenki_no_Ko: {
 		//Tenki no Ko 						myanimelist.net/anime/38826		mov1-19
 		"4YBNqNPjVM0": "Ai ni Dekiru Koto wa Mada Aru Kai"
 		, "bBZv2mHRoFI": "Daijoubu"
@@ -115,20 +115,20 @@ var vid_ide = {
 		, "z4cngdkOHeA": "voice of wind"
 	},
 
-	knswt: {
+	Kimi_no_Suizou_wo_Tabetai: {
 		//Kimi no Suizou wo Tabetai			myanimelist.net/anime/36098		mov1-18
 		"7N8oan7fwfk": "fanfare"
 		, "Vawlw-k7Xy8": "himitsu"
 		, "KFvVslApCPc": "shunkashuto"
 	},
 
-	nwwnwk: {
+	Nakitai_Watashi_wa_Neko_wo_Kaburu: {
 		//Nakitai Watashi wa Neko wo Kaburu	myanimelist.net/anime/41168		mov1-20
 		"9lVPAWLWtWc": "Hana ni Bourei"
 		, "cCkqFcMEc5k": "Usotsuki" //LAlzrCndEv8
 	},
 
-	h: {
+	Hyouka: {
 		//Hyouka								myanimelist.net/anime/12189		tv22-12  ova1-12
 		"0hJiMN4Csjw": "yasashisa no riyuu" //優しさの理由 OP 1 | jHe-Cv-sfhY
 		, "cfSqTxJNLd8": "madoromi no yakusoku" //まどろみの約束 ED 1
@@ -136,7 +136,7 @@ var vid_ide = {
 		, "_4R6QEaXAfM": "kimi ni matsuwaru mystery" //君にまつわるミステリー ED 2
 	},
 
-	kc: {
+	Kokoro_Connect: {
 		//Kokoro Connect						myanimelist.net/anime/11887		tv13-12  sp04-12
 		"hWeMIpoNB_Q": "kimochi signal"
 		, "FXJsTYqXvdM": "kokoro no kara"
@@ -147,7 +147,7 @@ var vid_ide = {
 		, "Au8TW7noMA4": "i scream chocolati" //oCLyh955vSY
 	},
 
-	tm: {
+	Tamako_Market: {
 		//Tamako Market						myanimelist.net/anime/16417		tv12-13  sp06-13  mov1-14
 		// TV 12 2013-01-10 2013-03-28 tm (Tamako Market) 											| myanimelist.net/anime/16417
 		// SP 06 2013-03-20 2013-08-21 tms (Tamako Market Specials) 								| myanimelist.net/anime/17879
@@ -165,7 +165,7 @@ var vid_ide = {
 		//sound track2 https://www.youtube.com/playlist?list=OLAK5uy_nBDYf4kVWrYq8vPeiEAVqKtA2IxmWWU2w
 	},
 
-	yonslcwm: {
+	Yahari_Ore_no_Seishun_Love: {
 		//Yahari Ore no Seishun Love C.w.M.	myanimelist.net/anime/14813		tv13-13--
 		//OreGairu
 		//TV 13 2013-04-05 2013-06-28 o 		(Yahari Ore no Seishun Love Comedy wa Machigatteiru.) 				myanimelist.net/anime/14813
@@ -191,7 +191,7 @@ var vid_ide = {
 		, "rmh0S_5JzTs": "Diamond no Jundo (ED3)" // ダイヤモンドの純度 | Saori Hayami & Nao Touyama | y4aDjFHR5KQ
 	},
 
-	ko: {
+	K_On: {
 		//K-On!								myanimelist.net/anime/5680		tv13-09--
 		//https://www.reddit.com/r/k_on/comments/rubtqo/8th_annual_kon_christmas_rewatch_season_2_episode/
 
@@ -237,7 +237,7 @@ var vid_ide = {
 		//,"":""
 	},
 
-	cdkgs: {
+	Chuunibyou_demo_Koi_ga_Shitai: {
 		//Chuunibyou demo Koi ga Shitai!		myanimelist.net/anime/14741		tv12-12--
 		//https://www.reddit.com/r/chuunibyou/
 		// Chuunibyou demo Koi ga Shitai! Movie: Take On Me Mini-Drama - Koukai Chokuzen no... Kaiko Gekijou https://www.anisearch.com/anime/13210,chuunibyou-demo-koi-ga-shitai-take-on-me-mini-drama-koukai-chokuzen-no-kaiko-gekijou
@@ -265,7 +265,7 @@ var vid_ide = {
 		, "MbGrVzbaXvg": "Kokoro no Namae"
 	},
 
-	gwudk: {
+	Gochuumon_wa_Usagi_Desu_ka: {
 		//Gochuumon wa Usagi Desu ka? | ご注文はうさぎですか？			myanimelist.net/anime/21273		tv12-14  tv12-15  mov1-17  sp01-19  tv12-20
 		// WO
 		// 12 2014-04-10 2014-06-26 G?
@@ -462,7 +462,7 @@ var vid_ide = {
 		// ,"aaaaaaaaaaa":"CS Takahiro Kafū Growth Record" //
 	},
 
-	uhskmykmk: {
+	Uchiage_Hanabi: {
 		//Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?	myanimelist.net/anime/34498		mov1-17
 		"FzJ_BC1tEWo": "Ruriiro no Chikyuu" //瑠璃色 の 地球 / 瑠璃色の 地キュ | Nazuna Oikawa(Suzu Hirose) / 広瀬すず | xhnYYIKG6cI 7Gnc73EDMPo ZgysLX7ZQz8
 		, "SKZWU-mj8No": "Forever Friends"
@@ -470,12 +470,12 @@ var vid_ide = {
 
 	},
 
-	knn: {
+	Kotonoha_no_Niwa: {
 		//Kotonoha no Niwa					myanimelist.net/anime/16782		mov1-13
 		"kKYoH7O1Kdg": "Rain" //Motohiro Hata | pAZ6w4P6F6g
 	},
 
-	kgs: {
+	Shigatsu_wa_Kimi_no_Uso: {
 		//Shigatsu wa Kimi no Uso 			myanimelist.net/anime/23273		tv22-14  ova1-15
 		"ySh4Ibj0Sos": "over the rainbow" //KuKVAK4I5r4
 		, "VowtyQeA9oc": "harmonia"
@@ -488,7 +488,7 @@ var vid_ide = {
 		, "hCpw-balEm4": "Ima Hanashitai Dareka ga Iru - Nogizaka46" //BSC6Sild4hg 2AIEa-UeVPA ZaGdhlsRDyc
 	},
 
-	ahmhnnwbwms: {
+	Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai: {
 		//Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.	myanimelist.net/anime/9989		tv11-11  sp01-12  mov1-13
 		//WO
 		// 11 2011-04-15 2011-06-24 ahmhnnwbwms
@@ -504,7 +504,7 @@ var vid_ide = {
 		, "Ebqqvx-IKP8": "I Left You" //SRH6sfrnrDg RRFltodaRL4
 	},
 
-	snawshy: {
+	Sora_no_Aosa_wo_Shiru_Hito_yo: {
 		//Sora no Aosa wo Shiru Hito yo 		myanimelist.net/anime/39569		mov1-19
 
 		"ztdpBUDf00o": "Sora no Aosa wo Shiru Hito yo" //TP_tZVAh-3I
@@ -513,7 +513,7 @@ var vid_ide = {
 		//,"":"" 11:20
 	},
 
-	n: {
+	Noragami: {
 		//Noragami							myanimelist.net/anime/20507		tv12-14  sp02-14  tv13-15  sp02-15 
 		//https://myanimelist.net/anime/20507/Noragami
 		//https://myanimelist.net/anime/30503/Noragami_Aragoto
@@ -550,7 +550,7 @@ var vid_ide = {
 		// ,"":"capypaland song"
 	},
 
-	ni: {
+	Nichijou: {
 		//Nichijou							myanimelist.net/anime/10165		sp01-11  tv26-11
 		//RO
 		// 01 2011-03-12 2011-03-12 n Nichijou no 0-wa
@@ -599,7 +599,7 @@ var vid_ide = {
 		// ,"":""
 	},
 
-	ixbss: {
+	InuxBoku: {
 		//Inu x Boku 							myanimelist.net/anime/11013		tv12-12  sp01-12
 		//RO
 		// 12 2012-01-13 2012-03-30 ixbss
@@ -625,7 +625,7 @@ var vid_ide = {
 		, "B9DCtkQzSBY": "Taiyou to Tsuki" //太陽と月
 	},
 
-	twks: {
+	Toki_wo_Kakeru_Shoujo: {
 		//Toki wo Kakeru Shoujo				myanimelist.net/anime/2236		mov1-06
 		//https://myanimelist.net/anime/2236/Toki_wo_Kakeru_Shoujo
 
@@ -634,7 +634,7 @@ var vid_ide = {
 		, "sZcWzkVSGMk": "Garnet"
 	},
 
-	c: {
+	Clannad: {
 		//Clannad								myanimelist.net/anime/2167		mov1-07  tv23-07  sp08-01  tv24-08  sp09-01
 		//RO
 		// 01 2007-09-15 2007-09-15 cm (Clannad Movie)
@@ -672,7 +672,7 @@ var vid_ide = {
 		, "i67ZXLPeg9s": "Chiisana Te no Hira"
 	},
 
-	aa: {
+	Asobi_Asobase: {
 		//Asobi Asobase						myanimelist.net/anime/37171		tv12-18  sp02-18  ova1-18
 		//RO
 		// 12 2018-07-08 2018-09-23 aa (Asobi Asobase)
@@ -709,7 +709,7 @@ var vid_ide = {
 		, "hkL4hW4eniI": "Inkya Impulse"
 	},
 
-	swknu: {
+	Shigatsu_wa_Kimi_no_Uso: {
 		//Shigatsu wa Kimi no Uso 			myanimelist.net/anime/23273		tv22-14  ova1-15
 		//Your lie in April
 		//RO
@@ -742,7 +742,7 @@ var vid_ide = {
 		//,"":"" //emi charsong DNIoWJfzsYU
 	},
 
-	pn: {
+	Plastic_Neesan: {
 		//Plastic Neesan						myanimelist.net/anime/10711		sp12-11
 		// 12 2011-05-16 2012-06-26 2minperepisode pn (Plastic Neesan) 	| https://myanimelist.net/anime/10711
 
@@ -750,7 +750,7 @@ var vid_ide = {
 		, "k5LP_dGQuw4": "Watashi to Watashi ga Shitai Koto"
 	},
 
-	ll: {
+	Love_Lab: {
 		//Love Lab 							myanimelist.net/anime/16353		tv13-13
 		// 13 2013-07-05 2013-09-27 ll (Love Lab) | https://myanimelist.net/anime/16353/Love_Lab
 
@@ -773,7 +773,7 @@ var vid_ide = {
 		, "xJNC8s_h4yo": "Netemosametemo ranjeri" //YmpDp2Lae6U
 	},
 
-	shny: {
+	Suzumiya_Haruhi_no_Yuuutsu: {
 		//Suzumiya Haruhi no Yuuutsu 			myanimelist.net/anime/849		tv14-06  tv14-09  move-10  tv16-15
 		//https://www.reddit.com/r/Haruhi/
 		//RO
@@ -908,7 +908,7 @@ var vid_ide = {
 		//,"":""// 
 	},
 
-	ls: {
+	Lucky_Star: {
 		//Lucky☆Star							myanimelist.net/anime/1887		tv24-07  ova1-08  on10-13
 		// TV 24 2007-04-08 2007-09-17 ls (Lucky☆Star) 											| https://myanimelist.net/anime/1887
 		// OO 01 2008-09-26 2008-09-26 lsonbta (Lucky☆Star: Original na Visual to Animation) 	| https://myanimelist.net/anime/4472
@@ -963,7 +963,7 @@ var vid_ide = {
 		, "q2lvbv2f4Lg": "Moe Yousotte nan desu ka?" //Character Song Vol.004 - Takara Miyuki
 	},
 
-	siny: {
+	Sukitte_Ii_na_yo: {
 		//Sukitte Ii na yo 					myanimelist.net/anime/14289		tv13-12  sp10-12  ova1-13
 		// TV 13 2012-10-07 2012-12-30 siny (Sukitte Ii na yo Say "I Love You.")		| https://myanimelist.net/anime/14289
 		// SS 10 2012-12-26 2013-05-22 sinymam (Sukitte Ii na yo.: Mei and Marshmallow)	| https://myanimelist.net/anime/17409
@@ -980,7 +980,7 @@ var vid_ide = {
 		, "LiqJ6ulUFac": "Sarari" //さらり
 	},
 
-	ad: {
+	Azumanga_Daioh: {
 		//Azumanga Daioh						myanimelist.net/anime/66		tv26-02  sp01-01  ona1-00  |  https://www.reddit.com/r/azudaioh/
 		// OO 01 2000-12-28 2000-12-28 awd (Azumanga Web Daioh) 				| https://myanimelist.net/anime/1593
 		// SP 01 2001-12-25 2001-12-25 adgt (Azumanga Daioh: Gekijou Tanpen) 	| https://myanimelist.net/anime/659
@@ -1003,7 +1003,7 @@ var vid_ide = {
 		// ,"":"Aogeba Toutoshi" //graduation song | eps26-8:15
 	},
 
-	g: {
+	Gosick: {
 		//Gosick 								myanimelist.net/anime/8425		tv24-11  sp01-11  1special13min |
 		// TV 24 2011-01-08 2011-07-02 g (Gosick) 																| https://myanimelist.net/anime/8425
 		// SP 01 2011-03-26 2011-03-26 gukwknsws (Gosick: Utsukushiki Kaibutsu wa Konton no Sen wo Shimiru) 	| https://myanimelist.net/anime/10504
@@ -1026,7 +1026,7 @@ var vid_ide = {
 		// ,"aaaaaaaaaaa":"Kagiri aru sekai de" //限りある世界で yoshiki*lisa In a limited world
 	},
 
-	mk: {
+	Minami_ke: {
 		//Minami-ke							myanimelist.net/anime/2963		tv13-07  tv13-08  tv13-09  ova1-09  ova1-12  tv13-13  ova1-13
 		// TV 13 2007-10-08 2007-12-31 mk (Minami-ke) 									| myanimelist.net/anime/2963
 		// TV 13 2008-01-07 2008-03-31 mko (Minami-ke Okawari) 							| myanimelist.net/anime/3225
@@ -1086,13 +1086,13 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	knmynb: {
+	Kumo_no_Mukou_Yakusoku_no_Basho: {
 		//Kumo no Mukou, Yakusoku no Basho	myanimelist.net/anime/433		mv01-04
 		// MV 01 2004-11-20 2004-11-20 knmynb (Kumo no Mukou, Yakusoku no Basho) 				| myanimelist.net/anime/433
 		"zZpsPws6XKE": "Kimi no Koe" //Kawashima, Ai ED
 	},
 
-	ud: {
+	Usagi_Drop: {
 		//Usagi Drop 					 		myanimelist.net/anime/10162		tv11-11  sp04-11
 		// TV 11 2011-07-08 2011-09-16 ud (Usagi Drop) 											| myanimelist.net/anime/10162
 		// SP 04 2011-10-27 2012-01-27 uds (Usagi Drop Specials) 								| myanimelist.net/anime/11113
@@ -1103,7 +1103,7 @@ var vid_ide = {
 		//,"":"graduation song" //E5 17:51
 	},
 
-	b5c: {
+	Byousoku_5_Centimeter: {
 		//Byousoku 5 Centimeter				myanimelist.net/anime/1689		mv03-07
 		// MV 03 2007-03-07 2007-03-07 b5c (Byousoku 5 Centimeter) 								| myanimelist.net/anime/1689
 		"GgDLuuiKVPs": "One more time one more chance" //BqFftJDXii0 Masayoshi Yamazaki 
@@ -1111,7 +1111,7 @@ var vid_ide = {
 		//,"":"" //42:12 song in minimarket
 	},
 
-	kmb: {
+	Kill_Me_Baby: {
 		//Kill Me Baby						myanimelist.net/anime/11079		tv13-12  ova1-12
 		// TV 13 2012-01-06 2012-03-30 kmb (Kill Me Baby) 										| myanimelist.net/anime/11079
 		// OV 01 2013-10-16 2013-10-16 kmbo (Kill Me Baby OVA) 									| myanimelist.net/anime/20039
@@ -1120,13 +1120,13 @@ var vid_ide = {
 		, "4qeLoN_uFfc": "Futari no Kimochi no Honto no Himitsu" //ふたりのきもちのほんとのひみつ ED
 	},
 
-	hwok: {
+	Hoshi_wo_Ou_Kodomo: {
 		//Hoshi wo Ou Kodomo					myanimelist.net/anime/9760		mv01-11
 		// MV 01 2011-05-07 2011-05-07 hwok (Hoshi wo Ou Kodomo) 								| myanimelist.net/anime/9760
 		"Iyx4eJOxGBM": "Hello Goodbye & Hello" //Anri Kumaki (熊木杏里) ED
 	},
 
-	sr: {
+	School_Rumble: {
 		//School Rumble	スクールランブル					myanimelist.net/anime/24		tv26-04  ova2-05  tv26-06  ova2-08
 		// TV 26 2004-10-05 2005-03-29 sr (School Rumble) 										| myanimelist.net/anime/24
 		// OV 02 2005-12-22 2005-12-22 sr igh (School Rumble: Ichi Gakki Hoshuu) 				| myanimelist.net/anime/517
@@ -1186,7 +1186,7 @@ var vid_ide = {
 		//,"Lkxj5X7REA0":"Onna no Ko♥Otoko no Ko (ED) TS.ver" //ED sr sg | オンナのコ♥オトコのコ(塚本姉妹ver.)
 	},
 
-	j: {
+	Joshiraku: {
 		//Joshiraku							myanimelist.net/anime/12679		tv13-12  ova1-13
 		// TV 13 2012-07-06 2012-09-28 j (Joshiraku) 											| myanimelist.net/anime/12679
 		// OV 01 2013-02-08 2013-02-08 jo (Joshiraku OVA) 										| myanimelist.net/anime/15591
@@ -1234,7 +1234,7 @@ var vid_ide = {
 		//https://www.youtube.com/channel/UCxYovZqe3xWOJevXGgPXdWg/videos
 	},
 
-	t: {
+	Toradora: {
 		//Toradora! とらドラ！							myanimelist.net/anime/4224		tv25-08  sp04-09  ova1-09  sp01-11
 		// TV 25 2008-10-02 2009-03-26 t (Toradora!) 											| myanimelist.net/anime/4224
 		// OV 01 2009-04-30 2009-04-30 tr (Toradora! Recap) 									| myanimelist.net/anime/23701
@@ -1269,7 +1269,7 @@ var vid_ide = {
 		//,"":""
 	},
 
-	p4: {
+	Persona_4: {
 		//Persona 4							myanimelist.net/anime/10588		tv25-11  sp01-12  mov1-12  sp05-13  sp01-13  tv12-14  sp01-14
 		// TV 25 2011-10-07 2012-03-30 p4ta (Persona 4 the Animation) 												| myanimelist.net/anime/10588
 		// SP 01 2012-08-22 2012-08-22 p4tanoia (Persona 4 the Animation: No One is Alone) 							| myanimelist.net/anime/13587
@@ -1391,7 +1391,7 @@ var vid_ide = {
 		//,"":"long way (ED3)" // | instrument only
 	},
 
-	p5: {
+	Persona_5: {
 		//Persona 5							myanimelist.net/anime/36023		sp01-16  tv26-18  sp01-18  sp01-18  sp02-19
 		//ペルソナ５ | 女神异闻录5
 		// SP 01 2016-09-03 2016-09-03 p5tatdb (Persona 5 the Animation: The Day Breakers) 							| myanimelist.net/anime/31645
@@ -1469,7 +1469,7 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	m: {
+	Munto: {
 		//Munto								myanimelist.net/anime/1174		ova1-03  ova1-05  tv09-09  mov1-9
 		// OV 01 2003-03-18 2003-03-18 m (MUNTO [ムント]) 													| myanimelist.net/anime/1174
 		// OV 01 2005-04-29 2005-04-29 mtnkwk (Munto: Toki no Kabe wo Koete | MUNTO 時の壁を越えて) 			| myanimelist.net/anime/1135
@@ -1501,7 +1501,7 @@ var vid_ide = {
 		//,"":"" //yumemitachi open future ep9 15:13
 	},
 
-	otk: {
+	Ookami_to_Koushinryou: {
 		//Ookami to Koushinryou				myanimelist.net/anime/2966		tv13-08  ova1-09  tv12-09  sp02-09  ona4-09  ona9-20	| 狼と香辛料 | 
 		//https://www.reddit.com/r/SpiceandWolf/
 		// TV 13 2008-01-09 2008-03-26 otk (Ookami to Koushinryou) 											| myanimelist.net/anime/2966
@@ -1548,7 +1548,7 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	a: {
+	Aiura: {
 		//Aiura								myanimelist.net/anime/17082		tv12-13-4min
 		//あいうら \ あいうらぶ
 		// TV 12 2013-04-10 2013-06-26 a (Aiura) 											| myanimelist.net/anime/17082
@@ -1583,7 +1583,7 @@ var vid_ide = {
 		//,"MTyqY9X5ekc":"" //あいうらな放課後
 	},
 
-	k: {
+	Kanon: {
 		//Kanon								myanimelist.net/anime/144		tv13-02  sp01-03  /  tv24-06
 		// TV 13 2002-01-31 2002-03-28 k2002 (Kanon (2002)) 										| myanimelist.net/anime/144
 		// SP 01 2003-05-03 2003-05-03 kk (Kanon Kazahana) 											| myanimelist.net/anime/704
@@ -1602,7 +1602,7 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	sn: {
+	Scarlet_Nexus: {
 		//Scarlet Nexus 						myanimelist.net/anime/48492 	tv26-21
 		// TV 26 2021-07-01 2021-12-23 sn (Scarlet Nexus) 											| myanimelist.net/anime/48492
 
@@ -1614,7 +1614,7 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	air: {
+	Air: {
 		// Air 								myanimelist.net/anime/101 		tv12-05  mv01-05  sp01-05  sp02-05
 		// TV 12 2005-01-07 2005-03-25 air (AIR) 													| myanimelist.net/anime/101
 		// MV 01 2005-02-05 2005-02-05 airm (Air Movie) 											| myanimelist.net/anime/713
@@ -1637,7 +1637,7 @@ var vid_ide = {
 		, "D61XHKpm-Fw": "If Dreams Came True (EDMV)" //Eri Kawai
 	},
 
-	kjnt: {
+	Karakai_Jouzu_no_Takagi_san: {
 		//Karakai Jouzu no Takagi-san			myanimelist.net/anime/35860		tv12-18  ova1-18  tv12-19  tv12-22  mov1-22
 		//Karakai Jouzu no Takagi-san			myanimelist.net/anime/35860		tv12-18--
 		// TV 12 2018-01-08 2018-03-26 kjnt (Karakai Jouzu no Takagi-san) 									| myanimelist.net/anime/35860
@@ -1727,7 +1727,7 @@ var vid_ide = {
 		//,"":"Tabidachi no Kaze" //旅立ちの風 | 大原ゆい子 Yuiko Oohara 
 	},
 
-	ab: {
+	Angel_Beats: {
 		//Angel Beats 						myanimelist.net/anime/6547 		tv13-10  sp02-10  sp01-10
 		// TV 13 2010-04-03 2010-06-26 ab (Angel Beats) 											| myanimelist.net/anime/6547
 		// SP 02 2010-12-22 2015-06-24 abs (Angel Beats! Specials) 									| myanimelist.net/anime/9062
@@ -1765,7 +1765,7 @@ var vid_ide = {
 		//,"":"" //aogeba ep13 12:46
 	},
 
-	sb: {
+	Sabage_bu: {
 		//Sabage-bu!							myanimelist.net/anime/20709 	tv12-14  sp06-14
 		// TV 12 2014-06-06 2014-10-21 sb (Sabage-bu!) 											| myanimelist.net/anime/20709
 		// SP 06 2014-10-24 2015-02-20 sbs (Sabage-bu! Specials) 								| myanimelist.net/anime/25647
@@ -1808,7 +1808,7 @@ var vid_ide = {
 		//,"":"" //
 	},
 
-	lb: {
+	Little_Busters: {
 		//Little Busters						myanimelist.net/anime/13655 	tv26-12  ova1-13  tv13-13  sp08-14  ova1-20
 		// TV 26 2012-10-06 2013-04-06 lb (Little Busters!) 												| myanimelist.net/anime/13655
 		// TV 13 2013-10-05 2013-12-28 lb r (Little Busters! Refrain) 										| myanimelist.net/anime/18195
@@ -1861,7 +1861,7 @@ var vid_ide = {
 		, "VPaklqRPP6M": "One s Future" // | kud | OP song of Kud Wafter VN (Little busters spin-off) from 2010 
 	},
 
-	id: {
+	Initial_D: {
 		//Initial D First Stage 				myanimelist.net/anime/185 		tv26-98  tv13-99  movi-01  ova2-01  ova1-02  spe1-03  tv24-04  ova1-07  ova1-08  tv14-12  tv04-14  movi-14  movi-15  movi-16  ova1-21  ova1-22
 		//01 TV 26 1998-04-19 1998-12-06 id1s (Initial D First Stage) 											| myanimelist.net/anime/185
 		//02 TV 13 1999-10-15 2000-01-21 id2s (Initial D Second Stage) 											| myanimelist.net/anime/186
@@ -2175,7 +2175,7 @@ var vid_ide = {
 		//,"yguwdqI5X9Q":"Flash Light" // | Igoda | 11ep3 03:40 
 	},
 
-	hl: {
+	Honobono_Log: {
 		//Honobono Log						myanimelist.net/anime/33241		tv10-16
 		// TV 10 2016-06-07 2016-06-18 hl (Honobono Log) 											| myanimelist.net/anime/33241
 		//https://www.naka-f.com/gallery/
@@ -2183,7 +2183,7 @@ var vid_ide = {
 		"M0usDXxDzj4": "morning (OPED)" // | Ame no Parade
 	},
 
-	r: {
+	Rewrite: {
 		//Rewrite 							myanimelist.net/anime/31716 	tv13-16  tv11-17
 		// TV 13 2016-06-02 2016-09-24 r (Rewrite) 													| myanimelist.net/anime/31716
 		// TV 11 2017-01-14 2017-03-25 r2s (Rewrite 2nd Season) 									| myanimelist.net/anime/34126
@@ -2229,7 +2229,7 @@ var vid_ide = {
 		, "UGS5HZSOLZM": "Kono Ki no Shita de" //この木の下で Under This Tree | Aoi Tada | 
 	},
 
-	p: {
+	Planetarian: {
 		//Planetarian:  			myanimelist.net/anime/33091 	mov1-16  ona5-16  ova1-21
 		// ONA 5 2016-07-07 2016-08-04 pchny (Planetarian: Chiisana Hoshi no Yume) 							| myanimelist.net/anime/33091
 		// MV 01 2016-09-03 2016-09-03 phnh (Planetarian: Hoshi no Hito) 									| myanimelist.net/anime/33190
@@ -2257,7 +2257,7 @@ var vid_ide = {
 		//,"04LZQ3DQer8":"星の世界" // |  | ibu pertiwi similar note bg song 1ep4 09:29 acSiNRp39aI
 	},
 
-	ch: {
+	Charlotte: {
 		//Charlotte 							myanimelist.net/anime/28999 	tv13-15  sp01-16
 		// TV 13 2015-07-05 2015-09-27 ch (Charlotte) 											| myanimelist.net/anime/28999
 		// SP 01 2016-03-30 2016-03-30 chtt (Charlotte: Tsuyoimono-tachi) 						| myanimelist.net/anime/31553
@@ -2308,7 +2308,7 @@ var vid_ide = {
 		//https://www.youtube.com/watch?v=f8WnpNXOiHQ
 	},
 
-	knnh: {
+	Kamisama_ni_Natta_Hi: {
 		//Kamisama ni Natta Hi 				myanimelist.net/anime/41930 	tv12-20
 		//神様になった日
 		// TV 12 2020-10-11 2020-12-27 knnh (Kamisama ni Natta Hi) 											| myanimelist.net/anime/41930
@@ -2342,7 +2342,7 @@ var vid_ide = {
 		//,"":"" // |  |
 	},
 
-	ka: {
+	Kaginado: {
 		//Kaginado 							myanimelist.net/anime/48775 	tv12-21  tv12-22
 		// TV 12 2021-10-13 2021-12-29 ka (Kaginado) 						| myanimelist.net/anime/48775
 		// TV 12 2022-04-13 2022-06-29 ka2 (Kaginado Season 2) 				| myanimelist.net/anime/50685
@@ -2372,7 +2372,7 @@ var vid_ide = {
 		//availabe at R,"":"" // |  | Rewrite 2ep7 00:46
 	},
 
-	huc: {
+	Himouto_Umaru_chan: {
 		//Himouto! Umaru-chan 				myanimelist.net/anime/28825		tv12-15  ova2-15  tv12-17  sp12-15
 		// TV 12 2015-07-09 2015-09-24 huc (Himouto! Umaru-chan) 			| myanimelist.net/anime/28825
 		// SP 12 2015-09-16 2016-02-17 hucs (Himouto! Umaru-chan S) 		| myanimelist.net/anime/31234
@@ -2496,7 +2496,7 @@ var vid_ide = {
 		//,"":"" //未完成マイヒ-0ー |  | 
 	},
 
-	tnt: {
+	Tonari_no_Totoro: {
 		//Tonari no Totoro 					myanimelist.net/anime/523		mov1-88
 		// MV 01 1988-04-16 1988-04-16 tnt (Tonari no Totoro) 											| myanimelist.net/anime/523
 		//https://myanimelist.net/anime/523/Tonari_no_Totoro
@@ -2506,7 +2506,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	tnsl: {
+	Tenkuu_no_Shiro_Laputa: {
 		//Tenkuu no Shiro Laputa 				myanimelist.net/anime/513		mov1-86
 		// MV 01 1986-08-02 tnsl (Tenkuu no Shiro Laputa) 											| myanimelist.net/anime/513
 
@@ -2515,7 +2515,7 @@ var vid_ide = {
 		//,"":"" // |  | trumpet pazu 11:51
 	},
 
-	hnh: {
+	Hotaru_no_Haka: {
 		//Hotaru no Haka 						myanimelist.net/anime/578		mov1-88
 		// MV 01 1988-04-16 hnh (Hotaru no Haka) 											| myanimelist.net/anime/578
 
@@ -2530,7 +2530,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	mnt: {
+	Majo_no_Takkyuubin: {
 		//Majo no Takkyuubin 					myanimelist.net/anime/512		mov1-89
 		// MV 01 1989-06-29 mnt (Majo no Takkyuubin) 											| myanimelist.net/anime/512
 
@@ -2541,7 +2541,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	op: {
+	Omoide_Poroporo: {
 		//Omoide Poroporo 					myanimelist.net/anime/1029		mov1-91
 		// MV 01 1991-07-20 op (Omoide Poroporo) 											| myanimelist.net/anime/1029
 
@@ -2560,7 +2560,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	knb: {
+	Kurenai_no_Buta: {
 		//Kurenai no Buta 					myanimelist.net/anime/416		mov1-92
 		// MV 01 1992-07-18 knb (Kurenai no Buta) 											| myanimelist.net/anime/416
 
@@ -2570,7 +2570,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	ugk: {
+	Umi_ga_Kikoeru: {
 		//Umi ga Kikoeru 						myanimelist.net/anime/743		mov1-93
 		// MV 01 1993-05-05 ugk (Umi ga Kikoeru) 											| myanimelist.net/anime/743
 
@@ -2578,7 +2578,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	mws: {
+	Mimi_wo_Sumaseba: {
 		//Mimi wo Sumaseba 					myanimelist.net/anime/585		mov1-95
 		// MV 01 1995-06-15 mws (Mimi wo Sumaseba) 											| myanimelist.net/anime/585
 
@@ -2589,7 +2589,7 @@ var vid_ide = {
 		//,"":"" // |  |
 	},
 
-	mh: {
+	Mononoke_Hime: {
 		//Mononoke Hime 						myanimelist.net/anime/164		mov1-97
 		// MV 01 1997-06-12 mh (Mononoke Hime) 											| myanimelist.net/anime/164
 
@@ -2601,7 +2601,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	stcnk: {
+	Sen_to_Chihiro_no_Kamikakushi: {
 		//Sen to Chihiro no Kamikakushi 		myanimelist.net/anime/199		mov1-01
 		// MV 01 2001-07-20 stcnk (Sen to Chihiro no Kamikakushi) Spirited Away											| myanimelist.net/anime/199
 
@@ -2612,7 +2612,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	nno: {
+	Neko_no_Ongaeshi: {
 		//Neko no Ongaeshi 					myanimelist.net/anime/597		mov1-02
 		// MV 01 2002-07-20 nno (Neko no Ongaeshi) The Cat Returns											| myanimelist.net/anime/597
 
@@ -2622,7 +2622,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	hnus: {
+	Howl_no_Ugoku_Shiro: {
 		//Howl no Ugoku Shiro 				myanimelist.net/anime/431		mov1-04
 		// MV 01 2004-11-20  (Howl no Ugoku Shiro) Howl's Moving Castle											| myanimelist.net/anime/431
 
@@ -2631,7 +2631,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	gs: {
+	Ged_Senki: {
 		//Ged Senki		 					myanimelist.net/anime/1829		mov1-06
 		// MV 01 2006-07-29  (Ged Senki) Tales from Earthsea											| myanimelist.net/anime/1829
 
@@ -2639,7 +2639,7 @@ var vid_ide = {
 		//,"":"" // |  | 55:50 | teru uta
 		//,"":"" // |  | 
 	},
-	gnunp: {
+	Gake_no_Ue_no_Ponyo: {
 		//Gake no Ue no Ponyo 				myanimelist.net/anime/2890		mov1-08
 		// MV 01 2008-07-19 gnunp (Gake no Ue no Ponyo) Ponyo on the Cliff by the Sea											| myanimelist.net/anime/2890
 
@@ -2648,7 +2648,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	kna: {
+	Karigurashi_no_Arrietty: {
 		//Karigurashi no Arrietty				myanimelist.net/anime/7711		mov1-10
 		// MV 01 2010-07-17 kna (Karigurashi no Arrietty) The Secret World of Arrietty											| myanimelist.net/anime/7711
 
@@ -2658,7 +2658,7 @@ var vid_ide = {
 		//,"":"" // |  | 
 	},
 
-	czk: {
+	Coquelicot_zaka_kara: {
 		//Coquelicot-zaka kara 				myanimelist.net/anime/10029		mov1-11
 		// MV 01 2011-07-16 czk (Coquelicot-zaka kara) From Up on Poppy Hill											| myanimelist.net/anime/10029
 
@@ -2686,7 +2686,7 @@ var vid_ide = {
 		//,"":"" // |  | 89:02 listsong
 	},
 
-	kt: {
+	Kaze_Tachinu: {
 		//Kaze Tachinu	 					myanimelist.net/anime/16662		mov1-13
 		// MV 01 2013-07-20 kt (Kaze Tachinu) The Wind Rises											| myanimelist.net/anime/16662
 
@@ -2698,7 +2698,7 @@ var vid_ide = {
 		//,"":"" // |  | 124:32 listsong
 	},
 
-	khnm: {
+	Kaguya_hime_no_Monogatari: {
 		//Kaguya-hime no Monogatari			myanimelist.net/anime/16664		mov1-13
 		// MV 01 2013-11-23 khnm (Kaguya-hime no Monogatari) The Tale of the Princess Kaguya											| myanimelist.net/anime/16664
 
@@ -2711,7 +2711,7 @@ var vid_ide = {
 		//,"":"" // |  | 132:46 listsong?
 	},
 
-	onm: {
+	Omoide_no_Marnie: {
 		//Omoide no Marnie 					myanimelist.net/anime/21557		mov1-14
 		// MV 01 2014-07-19 onm (Omoide no Marnie) When Marnie Was There											| myanimelist.net/anime/21557
 
