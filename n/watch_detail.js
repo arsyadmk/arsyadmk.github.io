@@ -8,10 +8,12 @@ var mastermsingle = "https://music.youtube.com/watch?v=";
 var vid_ide = {
 	のびさん: {
 		"FRRA1X_I5IE": "もさを - koiiro" //Mosawo HloQXQK_aQA
-		,"Egy8RZKxC5k": "もさを - Aitai" //Mosawo
-		,"8RmZFUxos3E": "もさを - Gyutto" //Mosawo
-,"2Od7QCsyqkE": "Daddy daddy do"
-		,"ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
+		, "Egy8RZKxC5k": "もさを - Aitai" //Mosawo
+		, "8RmZFUxos3E": "もさを - Gyutto" //Mosawo
+		, "2Od7QCsyqkE": "Daddy daddy do"
+		, "iXmg2aeggjc": "The Distance feat. 中村舞子 (dr mantan SMA LDR)"
+		, "": ""
+		, "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
 	},
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心
@@ -70,10 +72,10 @@ var vid_ide = {
 
 	a48: {
 		"mk_pNC5Y1XY": "Hissatsu Teleport" //必殺テレポート | ErhVPyDNjAU qBNYWm_3mts
-		,"desIW-jMxtQ":"Seventeen"
-		,"JcSatWaR3zA":"Yuhio Miteiruka?" //A3aWnOBMLNQ
-		,"794M8Av1e0Q":"Only today"
-		,"V-BA-mWPxsc":"Baby!Baby!Baby!"
+		, "desIW-jMxtQ": "Seventeen"
+		, "JcSatWaR3zA": "Yuhio Miteiruka?" //A3aWnOBMLNQ
+		, "794M8Av1e0Q": "Only today"
+		, "V-BA-mWPxsc": "Baby!Baby!Baby!"
 		// ,"":""
 		// ,"":""
 		// ,"":""
@@ -83,10 +85,10 @@ var vid_ide = {
 
 	j48: {
 		"BXXI_MnaA0Y": "Hissatsu Teleport"
-		,"SUV6CI43Iv0":"Seventeen"
-		,"VeSCkNSa-Bw":"Yuhio Miteiruka?"
-		,"fSDAJkbZUm8":"Only today"
-		,"NthQFNOjFrk":"Baby!Baby!Baby!"
+		, "SUV6CI43Iv0": "Seventeen"
+		, "VeSCkNSa-Bw": "Yuhio Miteiruka?"
+		, "fSDAJkbZUm8": "Only today"
+		, "NthQFNOjFrk": "Baby!Baby!Baby!"
 		// ,"":""
 		// ,"":""
 		// ,"":""
@@ -194,6 +196,14 @@ var vid_ide = {
 
 	K_On: {
 		//K-On!								myanimelist.net/anime/5680		tv13-09--
+		//TV 13 2009-04-03 2009-06-26 K-On! 				myanimelist.net/anime/5680
+		//SP 07 2009-07-29 2010-01-20 K-On!: Ura-On! 		myanimelist.net/anime/7017
+		//SP 01 2010-01-19            K-On!: Live House! 	myanimelist.net/anime/6862
+		//TV 26 2010-04-07 2010-09-29 K-On!! 				myanimelist.net/anime/7791
+		//SP 09 2010-07-30 2011-03-16 K-On!!: Ura-On!! 		myanimelist.net/anime/9203
+		//SP 01 2011-03-16            K-On!!: Keikaku! 		myanimelist.net/anime/9734
+		//MV 01 2011-12-03            K-On! Movie 			myanimelist.net/anime/9617
+
 		//https://www.reddit.com/r/k_on/comments/rubtqo/8th_annual_kon_christmas_rewatch_season_2_episode/
 
 		//list song k-on https://www.reddit.com/r/anime/comments/cibaph/a_collection_of_all_kon_and_hibike_euphonium/
