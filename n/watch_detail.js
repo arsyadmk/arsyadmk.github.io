@@ -11,8 +11,9 @@ var vid_ide = {
 		, "Egy8RZKxC5k": "もさを - Aitai" //Mosawo
 		, "8RmZFUxos3E": "もさを - Gyutto" //Mosawo
 		, "2Od7QCsyqkE": "Daddy daddy do"
-		, "iXmg2aeggjc": "The Distance feat. 中村舞子 (dr mantan SMA LDR)"
-		, "": ""
+		, "iXmg2aeggjc": "Cliff Edge - The Distance feat. 中村舞子 (dr mantan SMA LDR)"
+		, "bbps3mXY-PI": "Cliff Edge - サヨナラ I Love You"
+		, "61z-cqg28R8": "Ikimonogakari - SAKURA"
 		, "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
 	},
 	randommix: {
