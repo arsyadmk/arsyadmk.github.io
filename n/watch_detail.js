@@ -10,6 +10,7 @@ var vid_ide = {
 		"FRRA1X_I5IE": "もさを - koiiro" //Mosawo HloQXQK_aQA
 		,"Egy8RZKxC5k": "もさを - Aitai" //Mosawo
 		,"8RmZFUxos3E": "もさを - Gyutto" //Mosawo
+,"2Od7QCsyqkE": "Daddy daddy do"
 		,"ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
 	},
 	randommix: {
