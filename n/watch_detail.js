@@ -14,7 +14,7 @@ var vid_ide = {
 		, "iXmg2aeggjc": "Cliff Edge - The Distance feat. 中村舞子 (dr mantan SMA LDR)"
 		, "bbps3mXY-PI": "Cliff Edge - サヨナラ I Love You"
 		, "61z-cqg28R8": "Ikimonogakari - SAKURA"
-		, "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
+		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo
 	},
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心

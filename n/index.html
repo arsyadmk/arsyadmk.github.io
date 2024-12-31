@@ -11,12 +11,6 @@
 	<!-- bootstrap 502 -->
 	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
-	<style type="text/css">
-		.modal-body {
-			max-height: calc(100vh - 210px);
-			overflow-y: auto;
-		}
-	</style>
 	<!-- jquery bootstrap 500  -->
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
 	<!-- bootstrap js bundle 502  -->
@@ -24,9 +18,9 @@
 
 </head>
 
-<div id="myModal" class="modal" role="dialog">
+<div class="modal" id="myModal" role="dialog">
 	<!-- modal-sm xs xl lg -->
-	<div class="modal-dialog modal-xs">
+	<div class="modal-dialog modal-dialog-scrollable modal-xs">
 		<div class="modal-content">
 			<div class="modal-body">
 				<form role="form" id="select_j" action="" onsubmit="event.preventDefault(); formSubmit();" enctype="multipart/form-data">
@@ -45,30 +39,39 @@
 </div>
 
 <div class="modal fade" id="modalListYt" tabindex="-1" aria-hidden="true">
-	<div class="modal-dialog modal-xs">
+	<div class="modal-dialog modal-dialog-scrollable modal-xs">
 		<div class="modal-content">
-			<div class="modal-body">
-				<select class="form-select overflow-hidden" id="selectListYt" multiple onchange="updateValueSelectListYt(this.id)" aria-label="multiple select example"></select>
-			</div>
-			<div class="modal-footer">
-				<input type="hidden" id="listIdYtTemp">
-				<input type="hidden" id="listTitleYtTemp">
-				<input type="hidden" id="listIdTitleYtTemp">
-
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="order" id="n" value="n">
-					<label class="form-check-label" for="n">n</label>
+			<div class="modal-body" id="body_list_song"></div>
+			<div class="modal-footer justify-content-center">
+				<div class="d-flex flex-column justify-content-center bg-light w-100 mb-0">
+					<div class="d-flex justify-content-center">
+						<span id="total_song"></span>
+					</div>
+					<div class="d-flex gap-1 justify-content-center">
+						<input type="checkbox" id="all2" class="all2" onclick="checkvalidation2(this)"><label for="all2"> Select/Deselect All</label>
+					</div>
 				</div>
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="order" id="m" value="m" checked>
-					<label class="form-check-label" for="m">@</label>
+				<div class="d-flex justify-content-center d-none">
+					<input type="hidden" id="listIdYtTemp">
+					<input type="hidden" id="listTitleYtTemp">
+					<input type="hidden" id="listIdTitleYtTemp">
 				</div>
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="radio" name="order" id="r" value="r">
-					<label class="form-check-label" for="r">r</label>
+				<div class="d-flex justify-content-center bg-light w-100 mb-0">ORDER:</div>
+				<div class="d-flex justify-content-center bg-light w-100 mt-0">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="order" id="n" value="n" checked>
+						<label class="form-check-label" for="n">normal</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="order" id="m" value="m">
+						<label class="form-check-label" for="m">random</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="order" id="r" value="r">
+						<label class="form-check-label" for="r">reverse</label>
+					</div>
 				</div>
-
-				<button type="button" class="btn btn-primary" id="btnSubmitListYt" onclick="submitSelectedListYt()">0 | 00:00-00:00</button>
+				<button type="button" class="btn btn-primary w-100" id="btnSubmitListYt" onclick="submitSelectedListYt2()">0 | 00:00 | 00:00</button>
 			</div>
 		</div>
 	</div>
@@ -78,12 +81,12 @@
 <body style="background-color: black;">
 	<nav class="navbar navbar-dark bg-dark sticky-top d-flex justify-content-center"> <!-- fixed-bottom -->
 		<span class="navbar-text">
-			<button class="btn btn-sm btn-dark" onclick="openpopupmodal('n')">n</button>
+			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('n')">n</button> -->
 			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('m')">-</button> -->
 			<!-- <button class="btn btn-sm btn-dark" onclick="openpopupmodal('r')">r</button> -->
-			<!-- <button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalListYt">--</button> -->
+			<button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalListYt">n</button>
 			<a target="_blank" href="" id="currentlink"><button class="btn btn-sm btn-dark" id="currentlinkbtn">YT</button></a>
-			<a target="_blank" href="" id="currentlinkm"><button class="btn btn-sm btn-dark" id="currentlinkbtnm">MYT</button></a>
+			<!-- <a target="_blank" href="" id="currentlinkm"><button class="btn btn-sm btn-dark" id="currentlinkbtnm">MYT</button></a> -->
 			<a target="_blank" href="watch_detail.js"><button class="btn btn-sm btn-dark">WD</button></a>
 		</span>
 	</nav>
@@ -105,33 +108,187 @@
 </html>
 
 <script type="text/javascript">
-	// $(document).ready(function () {
-	// 	loadContentSeletListYt();
-	// 	$('#modalListYt').on('shown.bs.modal', function () {
-	// 		$('#selectListYt').focus();
-	// 	});
-	// 	$('.childHideShow').click(function () {
-	// 		var classChild = this.id.replace('optgroup', '');
-	// 		const elementClassChild = document.getElementsByClassName("child" + classChild);
-	// 		if ($('.child' + classChild).hasClass("d-none")) {
-	// 			$('.child' + classChild).removeClass("d-none");
-	// 			$('.child' + classChild).addClass("d-block");
-	// 		} else if ($('.child' + classChild).hasClass("d-block")) {
-	// 			$("#" + this.id).each(function () {
-	// 				var options = $(this).children("option"), length = options.length;
-	// 				if (options.filter(":selected").length == 0) {
-	// 					$('.child' + classChild).removeClass("d-block");
-	// 					$('.child' + classChild).addClass("d-none");
-	// 				}
-	// 			});
-	// 		}
-	// 	});
-	// 	$('.uncheckifselectedagain').dblclick(function () {
-	// 		$("#" + this.id + ":selected").removeAttr("selected");
-	// 		document.getElementById(this.parentNode.id).click();
-	// 		updateValueSelectListYt("selectListYt")
-	// 	});
-	// });
+	window.addEventListener('DOMContentLoaded', (event) => {
+		var count = 0;
+		var count_song_all = 0;
+
+		for (var key in vid_ide) {
+			var count_song = 0;
+			var count_child = 0;
+			if (vid_ide.hasOwnProperty(key)) {
+				for (const [key2] of Object.entries(vid_ide[key])) {
+					count_song++;
+				}
+				addSelect2(key, count_song);
+				for (const [key2] of Object.entries(vid_ide[key])) {
+					addSelectChild2(key, key2, vid_ide[key][key2], count_child);
+					count_child++;
+				}
+			}
+			count++;
+			count_song_all = count_song_all + count_song;
+		}
+
+		document.getElementById("total_song").innerHTML = "Total Song " + count_song_all;
+	});
+
+	function addSelect2(value_send, value_send_2) {
+		var body_list_song = document.getElementById("body_list_song");
+
+		var div_temp = document.createElement('div');
+		div_temp.classList.add('d-flex', 'gap-1');
+
+		var checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.id = value_send;
+		checkbox.name = value_send;
+		checkbox.value = value_send;
+		checkbox.checked = false;
+		checkbox.classList.add("chk2", "parent");
+		checkbox.onclick = () => { checkvalidation2(checkbox); };
+
+		var label = document.createElement('label');
+		label.htmlFor = value_send;
+		label.id = "l" + value_send;
+		label.appendChild(document.createTextNode(value_send));
+
+		var label2 = document.createElement('label');
+		label2.id = "h" + value_send;
+		label2.appendChild(document.createTextNode(('000' + value_send_2).slice(-4)));
+		label2.onclick = () => { hideshowchild2(value_send); };
+
+		div_temp.appendChild(label2);
+		div_temp.appendChild(checkbox);
+		div_temp.appendChild(label);
+
+		body_list_song.appendChild(div_temp);
+	}
+
+	function addSelectChild2(value_send, value_send2, value_send3, value_urutan) {
+		var body_list_song = document.getElementById("body_list_song");
+
+		var div_temp = document.createElement('div');
+		if (value_urutan % 2) {
+			div_temp.classList.add('divchk2' + value_send, 'd-flex', 'gap-1', 'd-none', 'ps-1', 'bg-light');
+		} else {
+			div_temp.classList.add('divchk2' + value_send, 'd-flex', 'gap-1', 'd-none', 'ps-1');
+		}
+
+		var checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.id = value_send2;
+		checkbox.name = value_send2;
+		checkbox.value = value_send2;
+		checkbox.checked = false;
+		checkbox.classList.add("chk2" + value_send, value_send, "chk2", "child");
+		checkbox.onclick = () => { checkvalidation2(checkbox); };
+
+		var label = document.createElement('label');
+		label.htmlFor = value_send2;
+		label.id = "l" + value_send2;
+		label.appendChild(document.createTextNode(value_send3));
+		// label.appendChild(document.createTextNode(value_send3.slice(0, 30)));
+
+		var href = document.createElement('a');
+		href.id = "h" + value_send2;
+		href.classList.add('ms-auto', 'pe-1');
+		href.appendChild(document.createTextNode("L"));
+		href.setAttribute('href', "https://www.youtube.com/watch?v=" + value_send2);
+
+		div_temp.appendChild(checkbox);
+		div_temp.appendChild(label);
+		div_temp.appendChild(href);
+
+		body_list_song.appendChild(div_temp);
+	}
+
+	function hideshowchild2(value_send) {
+		var checkcheckboxes = document.getElementsByClassName('divchk2' + value_send);
+		var bool_check = 0;
+		for (var i = 0; i < checkcheckboxes.length; i++) {
+			if (checkcheckboxes[i].classList.contains('d-none')) { bool_check = 1; }
+		}
+		if (bool_check == 1) {
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				checkcheckboxes[i].classList.remove('d-none');
+				checkcheckboxes[i].classList.add('d-block');
+			}
+		} else {
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				checkcheckboxes[i].classList.remove('d-block');
+				checkcheckboxes[i].classList.add('d-none');
+			}
+		}
+	}
+
+	function submitSelectedListYt2() {
+		order_temp = document.querySelector('input[name="order"]:checked').value;
+		setframe(order_temp, document.getElementById("listIdTitleYtTemp").value.toString().split(','));
+		let myModalEl = document.getElementById('modalListYt')
+		let modal = bootstrap.Modal.getInstance(myModalEl)
+		modal.hide()
+	}
+
+	function checkvalidation2(source) {
+		if (source.classList.contains('all2')) {
+			var chk = document.querySelectorAll(".chk2");
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
+			}
+		} else if (source.classList.contains('parent')) {
+			var chk = document.querySelectorAll(".chk2" + source.id);
+			for (var i = 0; i < chk.length; i++) {
+				if (source.checked) {
+					document.getElementById(chk[i].id).checked = true;
+				} else {
+					document.getElementById(chk[i].id).checked = false;
+				}
+			}
+		} else if (source.classList.contains('child')) {
+			var checkcheckboxes = document.getElementsByClassName(source.classList[0]);
+			var bool_check = 0;
+			for (var i = 0; i < checkcheckboxes.length; i++) {
+				if (checkcheckboxes[i].checked) { bool_check = 1; }
+			}
+			if (bool_check == 1) {
+				document.getElementById(source.classList[1]).checked = true;
+			} else {
+				document.getElementById(source.classList[1]).checked = false;
+			}
+		}
+
+		let value_id_selected = [];
+		let value_title_selected = [];
+		let value_id_title_selected = [];
+		let total_selected = 0;
+		var cekcheckboxes = document.getElementsByClassName('child');
+		for (var i = 0; i < cekcheckboxes.length; i++) {
+			if (cekcheckboxes[i].checked) {
+				value_id_selected.push(cekcheckboxes[i].value);
+				value_title_selected.push(document.getElementById("l" + cekcheckboxes[i].value).innerHTML);
+				value_id_title_selected.push(cekcheckboxes[i].value + "[|]" + document.getElementById("l" + cekcheckboxes[i].value).innerHTML);
+				total_selected++;
+			}
+		}
+		document.getElementById('listIdYtTemp').value = value_id_selected;
+		document.getElementById('listTitleYtTemp').value = value_title_selected;
+		document.getElementById('listIdTitleYtTemp').value = value_id_title_selected;
+
+		// var countallselected = $("[type='checkbox'].child:checked").length;
+		var countallselected = total_selected;
+		// var timetemp = (countallselected*4)/60;
+		var timetemp = (countallselected * 4);
+		var time_total = new Date(2000, 0, 0, 0, 0, 0);
+		var time_from_now = new Date();
+		time_from_now.setMinutes(new Date().getMinutes() + timetemp);
+		time_total.setMinutes(timetemp);
+
+		document.getElementById("btnSubmitListYt").innerHTML = total_selected + " Lagu | " + ('0' + time_total.getHours()).slice(-2) + ":" + ('0' + time_total.getMinutes()).slice(-2) + " Waktu | Sampai Jam " + ('0' + time_from_now.getHours()).slice(-2) + ":" + ('0' + time_from_now.getMinutes()).slice(-2);
+	};
 
 	function loadContentSeletListYt() {
 		var count = 0;
@@ -261,8 +418,8 @@
 		var titles_all = titles_all_temp;
 		document.getElementById("currentlink").href = master2 + ids_all;
 		document.getElementById("currentlinkbtn").innerHTML = "YT";
-		document.getElementById("currentlinkm").href = masterm + ids_all;
-		document.getElementById("currentlinkbtnm").innerHTML = "MYT";
+		// document.getElementById("currentlinkm").href = masterm + ids_all;
+		// document.getElementById("currentlinkbtnm").innerHTML = "MYT";
 		// document.getElementById("iframevid").src = "https://www.youtube.com/embed/s_Qi4WwxE9o&list=TLGGMAW5QimyWJAwNDA2MjAyMw?controls=0";
 		setlistvid(ids_all.toString().split(','), titles_all.toString().split(','));
 	}
