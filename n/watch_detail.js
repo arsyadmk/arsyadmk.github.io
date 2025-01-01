@@ -14,7 +14,7 @@ var vid_ide = {
 		, "iXmg2aeggjc": "Cliff Edge - The Distance feat. 中村舞子 (dr mantan SMA LDR)"
 		, "bbps3mXY-PI": "Cliff Edge - サヨナラ I Love You"
 		, "61z-cqg28R8": "Ikimonogakari - SAKURA"
-		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg
+		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg | youtube.com/watch?v=p8LxZPUFr9g
 		//https://tabs.ultimate-guitar.com/tab/3404813
 	},
 	randommix: {
@@ -2970,6 +2970,7 @@ Hinamatsuri							myanimelist.net/anime/36296 	tv12-18
 Seishun Buta Yarou wa Bunny Girl S 	myanimelist.net/anime/37450		tv13-18  sp05-18  mov1-19
 Grand Blue							myanimelist.net/anime/37105		tv12-18
 kaguya-sama							myanimelist.net/anime/37999		tv12-19  ona2-20  tv12-20  ova1-21  spc1-21  tv??-22
+Uramichi Oniisan 					myanimelist.net/anime/40620		tv13-23
 Horimiya							myanimelist.net/anime/42897		tv13-21  ova6-21
 Gokushufudou 						myanimelist.net/anime/43692		ona5-21  ona5-21  ona5-23
 Mieruko-chan						myanimelist.net/anime/48483		tv12-21
