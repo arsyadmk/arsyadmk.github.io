@@ -2732,6 +2732,33 @@ var vid_ide = {
 		//,"":"" // |  | 46:55
 	},
 
+	Wotaku_ni_Koi_wa_Muzukashii: {
+	//Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
+	// TV 11 2018-04-13 2018-06-22 Wotaku ni Koi wa Muzukashii 											| myanimelist.net/anime/35968
+	// SP 03 2019-03-29 2021-10-14 Wotaku ni Koi wa Muzukashii OVA 										| myanimelist.net/anime/38349
+	// LA 01 2020-02-07            Wotakoi: Love Is Hard for Otaku (film) 								| en.wikipedia.org/wiki/Wotakoi:_Love_Is_Hard_for_Otaku_(film)
+
+	//disscussion
+	//LINK	| 2000 HOST
+	//reddit.com/r/anime/wiki/rewatches
+	//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
+	//https://wotaku-ni-koi-wa-muzukashii.fandom.com/wiki/Category:Episodes (Source: Wotaku ni Koi wa Muzukashii Wiki)
+
+	//event イベント / live ライブ / cast キャスト / ニコ
+	//youtube.com/watch?v=
+	//nicovideo.jp/watch/
+	//live.nicovideo.jp/watch/
+	//bilibili.com/video/
+	//acfun.cn
+	//LINK 	| 2000-00-00 title
+
+	"XyuLpZAywH0":"Fiction (フィクション) (1OP 1) - Sumika" // | Sumika | IKHGAuNaGuA
+	,"BYuU4kUOMFY":"Kimi no Tonari (キミの隣) (1ED 1) - halca" // | halca | tbUvbSnhwvU 73fPaNpxB0I
+	,"biqBX_j03ro":"Ashita mo Mata (明日もまた) (1ED 1) - halca" // | halca | 
+	//,"":"" // |  | 
+	//,"":"" // |  | 
+	},
+
 	// snk: {
 	//v TV 25 2013-04-07 2013-09-29 snk (Shingeki no Kyojin) 											| myanimelist.net/anime/16498
 	//v SP 01 2013-07-07 2013-07-07 snkahk (Shingeki no Kyojin: Ano Hi Kara) 							| myanimelist.net/anime/19285
@@ -2815,6 +2842,7 @@ var vid_ide = {
 	//"":"" //
 	//,"":""
 	// },
+
 	// tmplate: {
 	//
 	// TV 00 2000-00-00 2000-00-00 singkatanTITLE (FULLTITLE) 											| myanimelist.net/anime/
@@ -2852,26 +2880,42 @@ var vid_ide = {
 };
 
 /*
+Tenkuu no Shiro Laputa 				myanimelist.net/anime/513		mov1-86
+Hotaru no Haka 						myanimelist.net/anime/578		mov1-88
+Tonari no Totoro 					myanimelist.net/anime/523		mov1-88
+Majo no Takkyuubin 					myanimelist.net/anime/512		mov1-89
+Omoide Poroporo 					myanimelist.net/anime/1029		mov1-91
+Kurenai no Buta 					myanimelist.net/anime/416		mov1-92
+Umi ga Kikoeru 						myanimelist.net/anime/743		mov1-93
+Mimi wo Sumaseba 					myanimelist.net/anime/585		mov1-95
+Mononoke Hime 						myanimelist.net/anime/164		mov1-97
 Initial D First Stage 				myanimelist.net/anime/185 		tv26-98  tv13-99  movi-01  ova2-01  ova1-02  spe1-03  tv24-04  ova1-07  ova1-08  tv14-12  tv04-14  movi-14  movi-15  movi-16  ova1-21  ova1-22
+Sen to Chihiro no Kamikakushi 		myanimelist.net/anime/199		mov1-01
+Neko no Ongaeshi 					myanimelist.net/anime/597		mov1-02
 Azumanga Daioh						myanimelist.net/anime/66		tv26-02  sp01-01  ona1-00
 Air 								myanimelist.net/anime/101 		tv12-05  mv01-05  sp01-05  sp02-05
 Kanon								myanimelist.net/anime/144		tv13-02  sp01-03  /  tv24-06
 Munto								myanimelist.net/anime/1174		ova1-03  ova1-05  tv09-09  mov1-9
+Howl no Ugoku Shiro 				myanimelist.net/anime/431		mov1-04
 Kumo no Mukou, Yakusoku no Basho	myanimelist.net/anime/433		mv01-04
 School Rumble						myanimelist.net/anime/24		tv26-04  ova2-05  tv26-06  ova2-08
+Ged Senki		 					myanimelist.net/anime/1829		mov1-06
 Toki wo Kakeru Shoujo				myanimelist.net/anime/2236		mov1-06
 Suzumiya Haruhi no Yuuutsu 			myanimelist.net/anime/849		tv14-06  tv14-09  move-10  tv16-15
 Byousoku 5 Centimeter				myanimelist.net/anime/1689		mv03-07
 Lucky☆Star							myanimelist.net/anime/1887		tv24-07  ova1-08  on10-13
 Clannad								myanimelist.net/anime/2167		mov1-07  tv23-07  sp08-01  tv24-08  sp09-01
 Minami-ke							myanimelist.net/anime/2963		tv13-07  tv13-08  tv13-09  ova1-09  ova1-12  tv13-13  ova1-13
+Gake no Ue no Ponyo 				myanimelist.net/anime/2890		mov1-08
 Ookami to Koushinryou				myanimelist.net/anime/2966		tv13-08  ova1-09  tv12-09  sp02-09  ona4-09  ona9-20
 Toradora!							myanimelist.net/anime/4224		tv25-08  sp04-09  ova1-09  sp01-11
 K-On!								myanimelist.net/anime/5680		tv13-09--
 Angel Beats 						myanimelist.net/anime/6547 		tv13-10  sp02-10  sp01-10
+Karigurashi no Arrietty				myanimelist.net/anime/7711		mov1-10
 Gosick 								myanimelist.net/anime/8425		tv24-11  sp01-11  1special13min
 Hoshi wo Ou Kodomo					myanimelist.net/anime/9760		mv01-11
 Ano Hi Mita Hana no N.w.B.w.M.S.	myanimelist.net/anime/9989		tv11-11  sp01-12  mov1-13
+Coquelicot-zaka kara 				myanimelist.net/anime/10029		mov1-11
 Usagi Drop 					 		myanimelist.net/anime/10162		tv11-11  sp04-11
 Nichijou							myanimelist.net/anime/10165		sp01-11  tv26-11
 Persona 4							myanimelist.net/anime/10588		tv25-11  sp01-12  mov1-12  sp05-13  sp01-13  tv12-14  sp01-14
@@ -2886,11 +2930,14 @@ Sukitte Ii na yo 					myanimelist.net/anime/14289		tv13-12  sp10-12  ova1-13
 Chuunibyou demo Koi ga Shitai!		myanimelist.net/anime/14741		tv12-12--
 Love Lab 							myanimelist.net/anime/16353		tv13-13
 Tamako Market						myanimelist.net/anime/16417		tv12-13  sp06-13  sp01-14  mov1-14
+Kaze Tachinu	 					myanimelist.net/anime/16662		mov1-13
+Kaguya-hime no Monogatari			myanimelist.net/anime/16664		mov1-13
 Kotonoha no Niwa					myanimelist.net/anime/16782		mov1-13
 Aiura								myanimelist.net/anime/17082		tv12-13-4min
 Gochuumon wa Usagi Desu ka?			myanimelist.net/anime/21273		tv12-14  tv12-15  mov1-17  sp01-19  tv12-20
 Noragami							myanimelist.net/anime/20507		tv12-14  sp02-14  tv13-15  sp02-15 
 Sabage-bu!							myanimelist.net/anime/20709 	tv12-14  sp06-14
+Omoide no Marnie 					myanimelist.net/anime/21557		mov1-14
 Shigatsu wa Kimi no Uso 			myanimelist.net/anime/23273		tv22-14  ova1-15
 Kokoro ga Sakebitagatterunda.		myanimelist.net/anime/28725		mov1-15
 Himouto! Umaru-chan 				myanimelist.net/anime/28825		tv12-15  ova2-15  tv12-17  sp12-15
@@ -2913,26 +2960,8 @@ Scarlet Nexus 						myanimelist.net/anime/48492 	tv26-21
 Kaginado 							myanimelist.net/anime/48775 	tv12-21  tv12-22
 
 
-Tenkuu no Shiro Laputa 				myanimelist.net/anime/513		mov1-86
-Hotaru no Haka 						myanimelist.net/anime/578		mov1-88
-Tonari no Totoro 					myanimelist.net/anime/523		mov1-88
-Majo no Takkyuubin 					myanimelist.net/anime/512		mov1-89
-Omoide Poroporo 					myanimelist.net/anime/1029		mov1-91
-Kurenai no Buta 					myanimelist.net/anime/416		mov1-92
-Umi ga Kikoeru 						myanimelist.net/anime/743		mov1-93
-Mimi wo Sumaseba 					myanimelist.net/anime/585		mov1-95
-Mononoke Hime 						myanimelist.net/anime/164		mov1-97
-Sen to Chihiro no Kamikakushi 		myanimelist.net/anime/199		mov1-01
-Neko no Ongaeshi 					myanimelist.net/anime/597		mov1-02
-Howl no Ugoku Shiro 				myanimelist.net/anime/431		mov1-04
-Ged Senki		 					myanimelist.net/anime/1829		mov1-06
-Gake no Ue no Ponyo 				myanimelist.net/anime/2890		mov1-08
-Karigurashi no Arrietty				myanimelist.net/anime/7711		mov1-10
-Coquelicot-zaka kara 				myanimelist.net/anime/10029		mov1-11
-Kaze Tachinu	 					myanimelist.net/anime/16662		mov1-13
-Kaguya-hime no Monogatari			myanimelist.net/anime/16664		mov1-13
-Omoide no Marnie 					myanimelist.net/anime/21557		mov1-14
 
+Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
 
 Joshikausei			 				myanimelist.net/anime/38295		tv12-19
 
@@ -2965,6 +2994,7 @@ Isekai Shokudou 					myanimelist.net/anime/34012		tv12-17  tv12-21	2s 12 cook so
 Tsurezure Children					myanimelist.net/anime/34902		tv12-17
 Sora yori mo Tooi Basho				myanimelist.net/anime/35839		tv13-18
 Darling in the FranXX 				myanimelist.net/anime/35849		tv24-18
+
 Violet Evergarden  					myanimelist.net/anime/33352		ona3-18  tv13-18  spc1-18  mov1-18  mov1-20
 Hinamatsuri							myanimelist.net/anime/36296 	tv12-18  
 Seishun Buta Yarou wa Bunny Girl S 	myanimelist.net/anime/37450		tv13-18  sp05-18  mov1-19
