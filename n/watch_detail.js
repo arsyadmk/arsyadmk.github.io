@@ -14,6 +14,8 @@ var vid_ide = {
 		, "iXmg2aeggjc": "Cliff Edge - The Distance feat. 中村舞子 (dr mantan SMA LDR)"
 		, "bbps3mXY-PI": "Cliff Edge - サヨナラ I Love You"
 		, "61z-cqg28R8": "Ikimonogakari - SAKURA"
+		, "mMa5EjnBJpU": "キセキ / GReeeeN"
+		, "H08YWE4CIFQ": "natori - Overdose"
 		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg | youtube.com/watch?v=p8LxZPUFr9g
 		//https://tabs.ultimate-guitar.com/tab/3404813
 	},
