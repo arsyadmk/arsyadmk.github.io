@@ -2735,30 +2735,30 @@ var vid_ide = {
 	},
 
 	Wotaku_ni_Koi_wa_Muzukashii: {
-	//Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
-	// TV 11 2018-04-13 2018-06-22 Wotaku ni Koi wa Muzukashii 											| myanimelist.net/anime/35968
-	// SP 03 2019-03-29 2021-10-14 Wotaku ni Koi wa Muzukashii OVA 										| myanimelist.net/anime/38349
-	// LA 01 2020-02-07            Wotakoi: Love Is Hard for Otaku (film) 								| en.wikipedia.org/wiki/Wotakoi:_Love_Is_Hard_for_Otaku_(film)
+		//Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
+		// TV 11 2018-04-13 2018-06-22 Wotaku ni Koi wa Muzukashii 											| myanimelist.net/anime/35968
+		// SP 03 2019-03-29 2021-10-14 Wotaku ni Koi wa Muzukashii OVA 										| myanimelist.net/anime/38349
+		// LA 01 2020-02-07            Wotakoi: Love Is Hard for Otaku (film) 								| en.wikipedia.org/wiki/Wotakoi:_Love_Is_Hard_for_Otaku_(film)
 
-	//disscussion
-	//LINK	| 2000 HOST
-	//reddit.com/r/anime/wiki/rewatches
-	//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
-	//https://wotaku-ni-koi-wa-muzukashii.fandom.com/wiki/Category:Episodes (Source: Wotaku ni Koi wa Muzukashii Wiki)
+		//disscussion
+		//LINK	| 2000 HOST
+		//reddit.com/r/anime/wiki/rewatches
+		//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
+		//https://wotaku-ni-koi-wa-muzukashii.fandom.com/wiki/Category:Episodes (Source: Wotaku ni Koi wa Muzukashii Wiki)
 
-	//event イベント / live ライブ / cast キャスト / ニコ
-	//youtube.com/watch?v=
-	//nicovideo.jp/watch/
-	//live.nicovideo.jp/watch/
-	//bilibili.com/video/
-	//acfun.cn
-	//LINK 	| 2000-00-00 title
+		//event イベント / live ライブ / cast キャスト / ニコ
+		//youtube.com/watch?v=
+		//nicovideo.jp/watch/
+		//live.nicovideo.jp/watch/
+		//bilibili.com/video/
+		//acfun.cn
+		//LINK 	| 2000-00-00 title
 
-	"XyuLpZAywH0":"Fiction (フィクション) (1OP 1) - Sumika" // | Sumika | IKHGAuNaGuA
-	,"BYuU4kUOMFY":"Kimi no Tonari (キミの隣) (1ED 1) - halca" // | halca | tbUvbSnhwvU 73fPaNpxB0I
-	,"biqBX_j03ro":"Ashita mo Mata (明日もまた) (1ED 1) - halca" // | halca | 
-	//,"":"" // |  | 
-	//,"":"" // |  | 
+		"XyuLpZAywH0": "Fiction (フィクション) (1OP 1) - Sumika" // | Sumika | IKHGAuNaGuA
+		, "BYuU4kUOMFY": "Kimi no Tonari (キミの隣) (1ED 1) - halca" // | halca | tbUvbSnhwvU 73fPaNpxB0I
+		, "biqBX_j03ro": "Ashita mo Mata (明日もまた) (1ED 1) - halca" // | halca | 
+		//,"":"" // |  | 
+		//,"":"" // |  | 
 	},
 
 	// snk: {
