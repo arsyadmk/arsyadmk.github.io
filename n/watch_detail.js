@@ -29,7 +29,7 @@ var vid_ide = {
 		, "ECmComJqPLA": "Wishing You a Good Life"
 		, "m34DPnRUfMU": "Ao To Natsu" //青と夏 
 		, "KMTo2LmixqQ": "summer time"
-		, "ol0BA7uw18Q": "YOASOBI - 夜に駆ける" //Yoru ni Kakeru x8VYWazR5mE
+		, "mJ1N7-HyH1A": "YOASOBI - 夜に駆ける" //Yoru ni Kakeru ol0BA7uw18Q x8VYWazR5mE
 		, "8iuLXODzL04": "YOASOBI - tabun" //x8VYWazR5mE
 		, "K1Tz2yNmamI": "YOASOBI - もう少しだけ" //x8VYWazR5mE
 		, "UyMvBWVGaOA": "NIKI - Every Summertime" //x8VYWazR5mE 7V-V_WvwF8I
