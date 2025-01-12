@@ -19,6 +19,17 @@ var vid_ide = {
 		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg | youtube.com/watch?v=p8LxZPUFr9g
 		//https://tabs.ultimate-guitar.com/tab/3404813
 	},
+
+	JP_version: {
+		"OESq2h5kSWg": "Rungkad jp" //bJYctSniXMo
+		, "WH_jiT0qQ1Q": "Ngopi Maszeh jp"
+		,"g2H-JwnJzjM":"心はすぐそばに - RAN" //
+		,"LT0f5dw1jdE":"もしもまたいつか - Ariel Noah" //
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
+	},
+
 	randommix: {
 		"FEn1yyzjPeU": "Ame to koigokoro" //雨と恋心
 		, "vnSeYVFi9VY": "Cosmic Girl"
@@ -34,10 +45,11 @@ var vid_ide = {
 		, "K1Tz2yNmamI": "YOASOBI - もう少しだけ" //x8VYWazR5mE
 		, "UyMvBWVGaOA": "NIKI - Every Summertime" //x8VYWazR5mE 7V-V_WvwF8I
 		, "fxAzu8Vf69g": "Rex Orange County - AMAZING" //nr2CsEtXxmI
-		, "OESq2h5kSWg": "Rungkad jp" //bJYctSniXMo
-		, "WH_jiT0qQ1Q": "Ngopi Maszeh jp"
 		, "Z056hRt23Fo": "ANRI - Remember Summer Days" //杏里 | 3agC6do-624
 		, "EYGGd2NKwtI": "Mori no chīsana resutoran" //手嶌葵「 森の小さなレストラン」 | oC2HvHKDjeU
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
 		//,"":"" //
 		//,"":"" //
 	},
@@ -2745,6 +2757,7 @@ var vid_ide = {
 		//reddit.com/r/anime/wiki/rewatches
 		//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
 		//https://wotaku-ni-koi-wa-muzukashii.fandom.com/wiki/Category:Episodes (Source: Wotaku ni Koi wa Muzukashii Wiki)
+		//https://wotakoi-anime.com/
 
 		//event イベント / live ライブ / cast キャスト / ニコ
 		//youtube.com/watch?v=
@@ -2756,9 +2769,16 @@ var vid_ide = {
 
 		"XyuLpZAywH0": "Fiction (フィクション) (1OP 1) - Sumika" // | Sumika | IKHGAuNaGuA
 		, "BYuU4kUOMFY": "Kimi no Tonari (キミの隣) (1ED 1) - halca" // | halca | tbUvbSnhwvU 73fPaNpxB0I
-		, "biqBX_j03ro": "Ashita mo Mata (明日もまた) (1ED 1) - halca" // | halca | 
-		//,"":"" // |  | 
-		//,"":"" // |  | 
+		, "biqBX_j03ro": "Ashita mo Mata (明日もまた) (1ED 2) - halca" // | halca | 
+		, "PJlNrmt9AEU": "Love or Respect (2ED 2) - Narumi Momose x Hirotaka Nifuji" // | Narumi Momose x Hirotaka Nifuji | Arisa Date x Kento Ito | otXCy-VaFTM
+		//, "": "" // |  | 
+		//, "": "" // |  | 
+		//, "": "" // |  | 
+		//, "WPQ5tUiO9bc": "Gegen notsuki (下弦の月) - Sumika" // |  | 
+		//, "wP1qFfzLf8A": "Perusona puromunādo (ペルソナ・プロムナード) - Sumika" // |  | FRzZhm3Ai8M
+		//, "Qc5dDErrfq4": "Iinoni (いいのに) - Sumika" // |  | 
+		//, "": "" // |  | 
+		//, "": "" // |  | 
 	},
 
 	// snk: {
@@ -2862,10 +2882,10 @@ var vid_ide = {
 	//acfun.cn
 	//LINK 	| 2000-00-00 title
 
-	//"":" (1OP 1)" // |  | 
-	//,"":" (1ED 1)" // |  | 
-	//,"":"" // |  | 
-	//,"":"" // |  | 
+	//"": " (1OP 1)" // |  | 
+	//, "": " (1ED 1)" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
 	// },
 
 	//reddit.com/r/anime/wiki/rewatches 						| wiki rewatch
