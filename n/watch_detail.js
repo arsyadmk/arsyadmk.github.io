@@ -17,6 +17,7 @@ var vid_ide = {
 		, "mMa5EjnBJpU": "キセキ / GReeeeN"
 		, "H08YWE4CIFQ": "natori - Overdose"
 		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg | youtube.com/watch?v=p8LxZPUFr9g
+		// , "RefmbPSaHM0": "もさを - Gyutto (guitar cover)" //Mosawo | youtube.com/watch?v=RefmbPSaHM0
 		//https://tabs.ultimate-guitar.com/tab/3404813
 	},
 
