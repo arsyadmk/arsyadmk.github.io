@@ -2773,12 +2773,28 @@ var vid_ide = {
 		, "biqBX_j03ro": "Ashita mo Mata (明日もまた) (1ED 2) - halca" // | halca | 
 		, "PJlNrmt9AEU": "Love or Respect (2ED 2) - Narumi Momose x Hirotaka Nifuji" // | Narumi Momose x Hirotaka Nifuji | Arisa Date x Kento Ito | otXCy-VaFTM
 		//, "": "" // |  | 
-		//, "": "" // |  | 
-		//, "": "" // |  | 
 		//, "WPQ5tUiO9bc": "Gegen notsuki (下弦の月) - Sumika" // |  | 
 		//, "wP1qFfzLf8A": "Perusona puromunādo (ペルソナ・プロムナード) - Sumika" // |  | FRzZhm3Ai8M
 		//, "Qc5dDErrfq4": "Iinoni (いいのに) - Sumika" // |  | 
 		//, "": "" // |  | 
+		, "BogXN6QpbCE": "いっさいがっさい SAVE THE WORLD" // | 高畑充希&山崎賢人 | wotakoi live action 10:22
+		, "R5NJc3fXeAQ": "きのうとは違う キミのこと" // | 高畑充希 | wotakoi live action 19:00
+		, "2uJ9PEOvfIQ": "タピオカ スクランブル" // | 高畑充希 | wotakoi live action 25:53
+		, "MbJ61ycMh7k": "花子のオハコはからみ酒" // | 菜々緒&ムロツヨシ | wotakoi live action 36:26
+		, "FdX8pd5ZrfM": "逃がさないぞ" // | 高畑充希 | wotakoi live action 40:24
+		, "wE9QVzG1bus": "僕に何ができるのだろう" // | 山崎賢人 | wotakoi live action 48:20
+		//, "": "" // |  | wotakoi live action kisu 55:45
+		, "FQWWoI7impk": "追いかけて来ないキミのこと" // | 高畑充希 | wotakoi live action 59:10
+		, "Nmu4Q8NIsNo": "ダンスは魔法" // | 高畑充希&斎藤工 | wotakoi live action 73:37
+		, "BRAe6ZDBUSw": "恋の発熱 (Uchida Maaya)" // | 内田真礼 | wotakoi live action 79:23 uchida maaya
+		, "pZdSWqSgeQU": "星よ教えて" // | 高畑充希 | wotakoi live action 86:21
+		, "1cwr1gAKXF0": "ぐるぐるフォーリンラヴ" // | 三宅晴佳 | wotakoi live action 94:20
+		, "Q73Hee1b4Ds": "ギミー！レボリューション (Uchida Maaya)" // |  | wotakoi live action 94:46 uchida maaya 
+		, "44WLwhEhiOU": "飲んでくれた" // | 菜々緒&ムロツヨシ | wotakoi live action 96:18
+		, "ko_M7Ka3FHA": "あなたでいいわ" // | 菜々緒 | wotakoi live action 97:28
+		, "QPBiFIsVoMY": "我は地を這う (ED)" // | 高畑充希 | wotakoi live action 107:51 ED
+		, "qDzGf68Mtm4": "とりあえず 恋と呼ぼう (ED Credit)" // | 高畑充希&山崎賢人 | wotakoi live action 109:14 ED
+		//, "": "" // |  | wotakoi live action list song 110:52
 		//, "": "" // |  | 
 	},
 
