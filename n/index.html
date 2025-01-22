@@ -71,7 +71,10 @@
 						<label class="form-check-label" for="r">reverse</label>
 					</div>
 				</div>
-				<button type="button" class="btn btn-primary w-100" id="btnSubmitListYt" onclick="submitSelectedListYt2()">0 | 00:00 | 00:00</button>
+				<div class="d-flex justify-content-center bg-light w-100 gap-1 mt-0">
+					<button type="button" class="btn btn-primary btn-sm flex-fill" id="btnSubmitListYt" onclick="submitSelectedListYt2()">0 | 00:00 | 00:00</button>
+					<button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="modal" aria-label="Close">X</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -155,7 +158,7 @@
 
 		var label2 = document.createElement('label');
 		label2.id = "h" + value_send;
-		label2.appendChild(document.createTextNode(('000' + value_send_2).slice(-4)));
+		label2.appendChild(document.createTextNode(('000' + value_send_2).slice(-4) + "⬇️"));
 		label2.onclick = () => { hideshowchild2(value_send); };
 
 		div_temp.appendChild(label2);
@@ -194,6 +197,7 @@
 		href.id = "h" + value_send2;
 		href.classList.add('ms-auto', 'pe-1');
 		href.appendChild(document.createTextNode("L"));
+		href.setAttribute('target', '_blank');
 		href.setAttribute('href', "https://www.youtube.com/watch?v=" + value_send2);
 
 		div_temp.appendChild(checkbox);
