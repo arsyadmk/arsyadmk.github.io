@@ -20,6 +20,12 @@ var vid_ide = {
 		// , "ndHOSjYmkjg": "もさを - Aitai (guitar cover)" //Mosawo | youtube.com/watch?v=ndHOSjYmkjg | youtube.com/watch?v=p8LxZPUFr9g
 		// , "RefmbPSaHM0": "もさを - Gyutto (guitar cover)" //Mosawo | youtube.com/watch?v=RefmbPSaHM0
 		//https://tabs.ultimate-guitar.com/tab/3404813
+		//
+		//,"iKr5YmDsClY":"Fantasy Forest - IA" //lagu yg didengerin nobisan dari SMA?
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
 	},
 
 	JP_version: {
