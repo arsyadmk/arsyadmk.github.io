@@ -2805,6 +2805,31 @@ var vid_ide = {
 		//, "": "" // |  | 
 	},
 
+	Domestic_na_Kanojo: {
+	//Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
+	// TV 00 2000-00-00 2000-00-00 singkatanTITLE (FULLTITLE) 											| myanimelist.net/anime/
+
+	//disscussion
+	//LINK	| 2000 HOST
+	//reddit.com/r/anime/wiki/rewatches
+	//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
+
+	//event イベント / live ライブ / cast キャスト / ニコ
+	//youtube.com/watch?v=
+	//nicovideo.jp/watch/
+	//live.nicovideo.jp/watch/
+	//bilibili.com/video/
+	//acfun.cn
+	//LINK 	| 2000-00-00 title
+
+	"0YF8vecQWYs": "Kawaki wo Ameku (OP)" //カワキヲアメク | Minami | 
+	, "vv68hpdwbOY": "Wagamama (ED)" //わがまま | Alisa Takigawa | 
+	, "GBMuovsHDi8": "always (ED 8)" // | Alisa Takigawa | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	},
+
 	// snk: {
 	//v TV 25 2013-04-07 2013-09-29 snk (Shingeki no Kyojin) 											| myanimelist.net/anime/16498
 	//v SP 01 2013-07-07 2013-07-07 snkahk (Shingeki no Kyojin: Ano Hi Kara) 							| myanimelist.net/anime/19285
@@ -3008,6 +3033,7 @@ Kaginado 							myanimelist.net/anime/48775 	tv12-21  tv12-22
 
 
 Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
+Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
 
 Joshikausei			 				myanimelist.net/anime/38295		tv12-19
 
