@@ -537,6 +537,13 @@ var vid_ide = {
 		, "SJywJjwqIK8": "secret base ~Kimi ga Kureta Mono~" //original song by zone 2001
 		, "ole1_a4zKsg": "Still..."
 		, "Ebqqvx-IKP8": "I Left You" //SRH6sfrnrDg RRFltodaRL4
+		// , "": "" //
+		, "Ge2B-4usOOU": "Aitakute Aitakute (MV Anaru Karaoke)" // 13:28 | anaru karaoke |  
+		// , "": "" //
+		// , "": "" //
+		// , "": "" //
+		// , "": "" //
+		// , "": "" //
 	},
 
 	Sora_no_Aosa_wo_Shiru_Hito_yo: {
