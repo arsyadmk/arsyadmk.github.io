@@ -2812,6 +2812,36 @@ var vid_ide = {
 		//, "": "" // |  | 
 	},
 
+	Taishou_Otome_Otogibanashi: {
+	//Taishou Otome Otogibanashi			myanimelist.net/anime/45055		tv12-21
+	// TV 12 2021-10-09 2021-12-25 too (Taishou Otome Otogibanashi) 											| myanimelist.net/anime/45055
+
+	//disscussion
+	//LINK	| 2000 HOST
+	//reddit.com/r/anime/wiki/rewatches
+	//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
+	//https://taisho-otome-fairy-tale.fandom.com/wiki/Category:Episodes (Source: Taisho Otome Fairy Tale Wiki)
+	//https://wotakoi-anime.com/
+
+	//event イベント / live ライブ / cast キャスト / ニコ
+	//youtube.com/watch?v=
+	//nicovideo.jp/watch/
+	//live.nicovideo.jp/watch/
+	//bilibili.com/video/
+	//acfun.cn
+	//LINK 	| 2000-00-00 title
+
+	"OA3AzxXz1q4": "Otome no Kokoroe (OP)" //オトメの心得 | GARNiDELiA | 
+	, "LlSkhXQ4lv4": "Makogoro ni Kanade (ED)" //真心に奏 | Shunichi Toki | 
+	//, "": "" // |  | 
+	//, "": "" // |  | ep1 01:22 15:53 ep2 09:53 ep3 20:36 | tachibana yuzuki
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	},
+
 	Domestic_na_Kanojo: {
 	//Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
 	// TV 00 2000-00-00 2000-00-00 singkatanTITLE (FULLTITLE) 											| myanimelist.net/anime/
@@ -3041,6 +3071,7 @@ Kaginado 							myanimelist.net/anime/48775 	tv12-21  tv12-22
 
 Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
 Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
+Taishou Otome Otogibanashi			myanimelist.net/anime/45055		tv12-21
 
 Joshikausei			 				myanimelist.net/anime/38295		tv12-19
 
