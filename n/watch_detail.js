@@ -28,6 +28,16 @@ var vid_ide = {
 		//,"":"" //
 	},
 
+	"💔": {
+		"QQPVQFyL0_Y":"Kokoronashi - majiko" //
+		,"QJie7dTvbjQ":"Kokoronashi - majiko LIVE" //
+		,"TQ8WlA2GXbk":"Pretender - 髭男dism" //
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
+		//,"":"" //
+	},
+
 	JP_version: {
 		"OESq2h5kSWg": "Rungkad jp" //bJYctSniXMo
 		, "WH_jiT0qQ1Q": "Ngopi Maszeh jp"
