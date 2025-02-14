@@ -2844,7 +2844,7 @@ var vid_ide = {
 	"OA3AzxXz1q4": "Otome no Kokoroe (OP)" //オトメの心得 | GARNiDELiA | 
 	, "LlSkhXQ4lv4": "Makogoro ni Kanade (ED)" //真心に奏 | Shunichi Toki | 
 	//, "": "" // |  | 
-	//, "": "" // |  | ep1 01:22 15:53 ep2 09:53 ep3 20:36 | tachibana yuzuki
+	//, "": "" // |  | ep1 01:22 15:53 ep2 09:53 ep3 20:36 eps7 20:25| tachibana yuzuki
 	, "exZUTLfMrm8": "Tsukiyo nokotori" //月夜ノコトリ | 自鳥ことり(CV.伊藤彩沙) Ji tori kotori (CV. Itō aya sa) | ep4 02:44 ep5 05:29
 	//, "": "" // |  | 
 	//, "": "" // |  | 
