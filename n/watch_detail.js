@@ -2845,9 +2845,11 @@ var vid_ide = {
 	, "LlSkhXQ4lv4": "Makogoro ni Kanade (ED)" //真心に奏 | Shunichi Toki | 
 	//, "": "" // |  | 
 	//, "": "" // |  | ep1 01:22 15:53 ep2 09:53 ep3 20:36 eps7 20:25| tachibana yuzuki
-	, "exZUTLfMrm8": "Tsukiyo nokotori" //月夜ノコトリ | 自鳥ことり(CV.伊藤彩沙) Ji tori kotori (CV. Itō aya sa) | ep4 02:44 ep5 05:29
-	//, "": "" // |  | 
-	//, "": "" // |  | 
+	, "exZUTLfMrm8": "Tsukiyo nokotori - Shiratori Kotori" //月夜ノコトリ | 自鳥ことり(CV.伊藤彩沙) Shiratori Kotori (CV. Itō aya sa) | ep4 02:44 ep5 05:29 ep8 06:54 ep9 18:17 
+	//, "": "" // |  | ep8 08:20
+	//, "": "" // |  | ep9 06:18
+	//, "": "" // |  | ep9 13:33
+	, "KKJEt1LuHxo": "liàn No Uta - Shiratori Kotori" //戀ノ歌 | 自鳥ことり(CV.伊藤彩沙) | Shiratori Kotori | ep9 20:12
 	//, "": "" // |  | 
 	//, "": "" // |  | 
 	},
