@@ -2854,6 +2854,35 @@ var vid_ide = {
 	//, "": "" // |  | 
 	},
 
+	Ore_dake_Level_Up_na_Ken: {
+	//Ore dake Level Up na Ken			myanimelist.net/anime/52299		tv12-24  sp01-24  mv01-24  tv13-25
+	// TV 12 2024-01-07 2024-03-31 odlunk (Ore dake Level Up na Ken) 									| myanimelist.net/anime/52299
+	// SP 01 2024-02-25 		   odlunk:htgs (Ore dake Level Up na Ken: How to Get Stronger) 			| myanimelist.net/anime/58224
+	// MV 01 2024-11-29            odlunk:r (Ore dake Level Up na Ken: ReAwakening) 					| myanimelist.net/anime/59841
+	// TV 13 2025-01-05 2025-03-30 odlunks2 (Ore dake Level Up na Ken Season 2: Arise from the Shadow) 	| myanimelist.net/anime/58567
+
+	//disscussion
+	//LINK	| 2000 HOST
+	//reddit.com/r/anime/wiki/rewatches
+	//reddit.com/r/anime/wiki/rewatches/rewatch_archive/2014
+
+	//event イベント / live ライブ / cast キャスト / ニコ
+	//youtube.com/watch?v=
+	//nicovideo.jp/watch/
+	//live.nicovideo.jp/watch/
+	//bilibili.com/video/
+	//acfun.cn
+	//LINK 	| 2000-00-00 title
+
+	"Jsc6bPHe4tM": "LEveL - SawanoHiroyuki (OP1)" // | SawanoHiroyuki[nZk]:TOMORROW X TOGETHER (eps 2-12) | 
+	, "ebYmIov9zAY": "request - krage (ED1)" // |  |  
+	, "o4rpy5gaUJw": "ReawakeR - LiSA (OP2)" // |  | 
+	, "ti6Mbd5Tx-0": "UN-APEX - TK" // | TK from Ling tosite sigure (TK from 凛として時雨) | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	//, "": "" // |  | 
+	},
+
 	Domestic_na_Kanojo: {
 	//Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
 	// TV 00 2000-00-00 2000-00-00 singkatanTITLE (FULLTITLE) 											| myanimelist.net/anime/
@@ -3084,6 +3113,7 @@ Kaginado 							myanimelist.net/anime/48775 	tv12-21  tv12-22
 Wotaku ni Koi wa Muzukashii			myanimelist.net/anime/35968		tv11-18
 Domestic na Kanojo					myanimelist.net/anime/37982		tv12-19
 Taishou Otome Otogibanashi			myanimelist.net/anime/45055		tv12-21
+Ore dake Level Up na Ken			myanimelist.net/anime/52299		tv12-24  sp01-24  mv01-24  tv13-25
 
 Joshikausei			 				myanimelist.net/anime/38295		tv12-19
 
