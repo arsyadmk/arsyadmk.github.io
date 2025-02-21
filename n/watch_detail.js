@@ -184,6 +184,19 @@ var vid_ide = {
 		, "Au8TW7noMA4": "i scream chocolati" //oCLyh955vSY
 	},
 
+	Kokoro_ga_Sakebitagatterunda: {
+		//Kokoro ga Sakebitagatterunda.		myanimelist.net/anime/28725		mov1-15
+		"ySh4Ibj0Sos": "over the rainbow" //KuKVAK4I5r4
+		, "VowtyQeA9oc": "harmonia"
+		, "3S9JgPRliQM": "Akogare no Budoukai" //orMhzkXjzek
+		, "qjKyE1cgr0k": "Hikari no Nai Heya"
+		, "Wo5HQjRwVe0": "Moeagare" //-MGRes6VfVQ
+		, "Uex2SQVn3Gw": "Watashi no Koe" //DQWq-V1AWO4
+		, "JnfKhLOM1G0": "Tamago no Naka ni wa Nani"
+		, "yntkIygfMJc": "Anata no Namae Yobu yo" //yntkIygfMJc 9NhjY2uytcE
+		, "hCpw-balEm4": "Ima Hanashitai Dareka ga Iru - Nogizaka46" //BSC6Sild4hg 2AIEa-UeVPA ZaGdhlsRDyc
+	},
+
 	Tamako_Market: {
 		//Tamako Market						myanimelist.net/anime/16417		tv12-13  sp06-13  mov1-14
 		// TV 12 2013-01-10 2013-03-28 tm (Tamako Market) 											| myanimelist.net/anime/16417
@@ -518,19 +531,6 @@ var vid_ide = {
 	Kotonoha_no_Niwa: {
 		//Kotonoha no Niwa					myanimelist.net/anime/16782		mov1-13
 		"kKYoH7O1Kdg": "Rain" //Motohiro Hata | pAZ6w4P6F6g
-	},
-
-	Shigatsu_wa_Kimi_no_Uso: {
-		//Shigatsu wa Kimi no Uso 			myanimelist.net/anime/23273		tv22-14  ova1-15
-		"ySh4Ibj0Sos": "over the rainbow" //KuKVAK4I5r4
-		, "VowtyQeA9oc": "harmonia"
-		, "3S9JgPRliQM": "Akogare no Budoukai" //orMhzkXjzek
-		, "qjKyE1cgr0k": "Hikari no Nai Heya"
-		, "Wo5HQjRwVe0": "Moeagare" //-MGRes6VfVQ
-		, "Uex2SQVn3Gw": "Watashi no Koe" //DQWq-V1AWO4
-		, "JnfKhLOM1G0": "Tamago no Naka ni wa Nani"
-		, "yntkIygfMJc": "Anata no Namae Yobu yo" //yntkIygfMJc 9NhjY2uytcE
-		, "hCpw-balEm4": "Ima Hanashitai Dareka ga Iru - Nogizaka46" //BSC6Sild4hg 2AIEa-UeVPA ZaGdhlsRDyc
 	},
 
 	Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai: {
