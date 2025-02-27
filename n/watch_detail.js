@@ -2861,6 +2861,8 @@ var vid_ide = {
 	// MV 01 2024-11-29            odlunk:r (Ore dake Level Up na Ken: ReAwakening) 					| myanimelist.net/anime/59841
 	// TV 13 2025-01-05 2025-03-30 odlunks2 (Ore dake Level Up na Ken Season 2: Arise from the Shadow) 	| myanimelist.net/anime/58567
 
+	//https://solo-leveling.fandom.com/wiki/Solo_Leveling_Season_1
+
 	//disscussion
 	//LINK	| 2000 HOST
 	//reddit.com/r/anime/wiki/rewatches
