@@ -2881,8 +2881,8 @@ var vid_ide = {
 	, "o4rpy5gaUJw": "ReawakeR - LiSA (OP2)" // |  | 
 	, "ti6Mbd5Tx-0": "UN-APEX - TK" // | TK from Ling tosite sigure (TK from 凛として時雨) | 
 	//, "": "" // |  | 
-	//, "": "" // |  | 1eps6-17:21
-	//, "": "" // |  | 
+	//, "": "" // |  | 1eps06-17:21
+	//, "": "" // |  | 1eps10-07:54
 	//, "": "" // |  | 
 	//, "": "" // |  | 
 	//, "": "" // |  | 
