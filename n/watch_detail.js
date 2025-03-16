@@ -2862,6 +2862,7 @@ var vid_ide = {
 	// TV 13 2025-01-05 2025-03-30 odlunks2 (Ore dake Level Up na Ken Season 2: Arise from the Shadow) 	| myanimelist.net/anime/58567
 
 	//https://solo-leveling.fandom.com/wiki/Solo_Leveling_Season_1
+	//https://solo-leveling.fandom.com/wiki/Solo_Leveling_Season_2 (Source: Solo Leveling Wiki)
 
 	//disscussion
 	//LINK	| 2000 HOST
@@ -2879,11 +2880,11 @@ var vid_ide = {
 	"Jsc6bPHe4tM": "LEveL - SawanoHiroyuki (OP1)" // | SawanoHiroyuki[nZk]:TOMORROW X TOGETHER (eps 2-12) | 
 	, "ebYmIov9zAY": "request - krage (ED1)" // |  |  
 	, "o4rpy5gaUJw": "ReawakeR - LiSA (OP2)" // |  | 
-	, "ti6Mbd5Tx-0": "UN-APEX - TK" // | TK from Ling tosite sigure (TK from 凛として時雨) | 
+	, "ti6Mbd5Tx-0": "UN-APEX - TK (ED2)" // | TK from Ling tosite sigure (TK from 凛として時雨) | 
 	//, "": "" // |  | 
-	//, "": "" // |  | 1eps06-17:21
-	//, "": "" // |  | 1eps10-07:54
-	//, "": "" // |  | 
+	//, "": "" // |  | s1eps06-17:21
+	//, "": "" // |  | s1eps10-07:54
+	//, "": "" // |  | s2eps01-18:19
 	//, "": "" // |  | 
 	//, "": "" // |  | 
 	//, "": "" // |  | 
