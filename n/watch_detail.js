@@ -2863,6 +2863,7 @@ var vid_ide = {
 
 	//https://solo-leveling.fandom.com/wiki/Solo_Leveling_Season_1
 	//https://solo-leveling.fandom.com/wiki/Solo_Leveling_Season_2 (Source: Solo Leveling Wiki)
+	//https://solo-leveling.fandom.com/wiki/Category:Races
 
 	//disscussion
 	//LINK	| 2000 HOST
