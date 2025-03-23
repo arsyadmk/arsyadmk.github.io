@@ -64,6 +64,7 @@
         <button onclick="changeMode('otaku')">Otaku Mode</button>
         <button onclick="changeMode('gaming')">Gaming Mode</button>
         <button onclick="changeMode('it')">Tech Mode</button>
+        <button onclick="changeMode()">Reset</button>
     </div>
 </body>
 
@@ -119,6 +120,8 @@
             body.style.backgroundImage = "url('https://i.pinimg.com/736x/37/6f/a4/376fa411e0f0b60195854ca3fe57f351.jpg')";
         } else if (mode === "it") {
             body.style.backgroundImage = "url('https://i.pinimg.com/736x/b5/9f/d5/b59fd5a9c1c30e4f08878e78a8538450.jpg')";
+        } else {
+            body.style.backgroundImage = "";
         }
     }
 
