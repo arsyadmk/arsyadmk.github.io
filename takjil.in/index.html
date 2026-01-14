@@ -103,65 +103,112 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_reson">
-                        <div class="thum">
-                            <div class="thum_1">
-                                <img src="img/help/2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="help_content">
-                            <h4>Setiap paket yang Anda titipkan menjadi</h4>
-                            <p>Penguat ukhuwah saat berbuka<br>Senyum syukur di waktu maghrib<br>Pahala jariyah yang terus mengalir</p>
-                            <!-- <a href="#" class="read_more">Read More</a> -->
-                        </div>
+                <ol class="list-benefit">
+                    <li class="item-benefit">
+                        <h2 class="headline">Penguat Ukhuwah Saat Berbuka</h2><span>Membagikan takjil, makanan, atau paket berbuka kepada orang lain yang kurang mampu atau bahkan kepada teman-teman, keluarga, atau tetangga. Ini adalah bentuk ibadah sosial yang sangat dianjurkan dalam Islam.</span>
+                    </li>
+                    <li class="item-benefit">
+                        <h2 class="headline">Senyum Syukur di Waktu Maghrib</h2><span>Menyambut waktu berbuka dengan penuh rasa syukur, tidak hanya dengan kata-kata tetapi juga dengan ekspresi wajah yang menggambarkan kebahagiaan dan ketenangan. Senyum yang tulus sebagai bentuk rasa terima kasih atas kesempatan untuk berbuka.</span>
+                    </li>
+                    <li class="item-benefit">
+                        <h2 class="headline">Pahala Jariyah yang Terus Mengalir</h2><span>Menyumbangkan makanan untuk berbuka, mendirikan program berbuka puasa gratis, atau menyokong kegiatan sosial lainnya yang memberikan manfaat terus menerus bagi banyak orang.</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        :root {
+            --bg: #fdfdfd;
+            --highlight1: #3CC78F;
+            --highlight2: #2ea86f;
+            --color: #1a1e24;
+            --font-number: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+            /* --font-head: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace; */
+            --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .list-benefit {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            list-style: none;
+            width: 600px;
+            max-width: 90%;
+            padding-left: 0;
+        }
+
+        .item-benefit {
+            display: block;
+            clear: both;
+            counter-increment: list;
+            padding-bottom: 4rem;
+            font-size: 1.1rem;
+            line-height: 1.375;
+            position: relative;
+        }
+
+        .item-benefit:before {
+            font: bold 2.25rem/1 var(--font-number);
+            content: counter(list);
+            width: 5rem;
+            height: 5rem;
+            float: left;
+            margin: 0 1.5rem 0.75rem 0;
+            color: var(--bg);
+            background: var(--highlight1) linear-gradient(to bottom right, var(--highlight1) 25%, var(--highlight2));
+            text-shadow: 0 0 2px var(--highlight1);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            shape-outside: ellipse();
+            z-index: 1;
+        }
+
+        .item-benefit:after {
+            width: 2.5rem;
+            height: 2.5rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            background: var(--highlight1);
+            z-index: -1;
+            border-top-left-radius: 3px;
+        }
+
+        .headline {
+            padding: 0rem 0 0 0;
+            margin: 0 0 1rem 0;
+            font: normal 2rem var(--font-head);
+            font-weight: bold;
+        }
+    </style>
+    <!-- reson_area_end  -->
+    
+    <!-- reson_area_start  -->
+    <div class="reson_area section_padding" style="background: rgba(60, 199, 143, 0.06)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Bagaimana Takjil.in</span> menyampaikan titipan takjil anda?</h3>
                     </div>
                 </div>
+            </div>
+            <div class="row justify-content-center">
+                <ol class="list-benefit">
+                    <li class="item-benefit">
+                        <h2 class="headline">Verifikasi & Produksi</h2><span>Setelah transaksi dibuat, admin akan meneruskan ke dapur takjilin untuk proses pembuatan nasi box sesuai jumlah yang dipesan.</span>
+                    </li>
+                    <li class="item-benefit">
+                        <h2 class="headline">Delivery & Konfirmasi Takjil</h2><span>Nasi box yang telah siap, dikirimkan ke beberapa lokasi di Sleman secara merata. Takjil yang sudah diterima kemudian dikonfirmasi admin dan disampaikan ke donatur via WA.</span>
+                    </li>
+                </ol>
             </div>
         </div>
     </div>
     <!-- reson_area_end  -->
-
-    <!-- latest_activites_area_start  -->
-    <div class="latest_activites_area">
-        <div class=" video_bg_1 video_activite d-flex align-items-center justify-content-center">
-            <a class="popup-video" href="https://www.instagram.com/takjilin.id/reel/DTUQmdUEgbO/">
-                <i class="flaticon-ui"></i>
-            </a>
-        </div>
-        <div class="container">
-            <div class="row justify-content-end">
-                <div>
-                    <div class="activites_info">
-                        <!-- <div class="section_title">
-                            <h3> <span>Watch Our Latest </span>Activities</h3>
-                        </div> -->
-                        <!-- <div class="events">
-                            <h3 class="counter">37</h3>
-                            <h3 class="">Hari</h3>
-                            <p>Menuju Bulan Suci Ramadhan</p>
-                        </div> -->
-                        <h3 class="pb-3">Bagaimana Takjil.in menyampaikan
-                            <br>titipan takjil anda?
-                        </h3>
-                        <p>1. Verifikasi & Produksi:
-                            <br>Setelah transaksi dibuat, admin akan
-                            <br>meneruskan ke dapur takjilin untuk
-                            <br>proses pembuatan nasi box sesuai jumlah yang dipesan
-                        </p>
-                        <p>2. Delivery & Konfirmasi Takjil:
-                            <br>nasi box yang telah siap, dikirimkan
-                            <br>ke beberapa lokasi di Sleman secara merata.
-                            <br>Takjil yang sudah diterima kemudian
-                            <br>dikonfirmasi admin dan disampaikan ke donatur via WA.
-                        </p>
-                        <!-- <a href="#" data-scroll-nav='1' class="boxed-btn4">Donate Now</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- latest_activites_area_end  -->
 
     <div data-scroll-index='1' id="packet" class="make_donation_area section_padding">
         <div class="container">
@@ -178,7 +225,6 @@
                     <div class="row justify-content-center">
                         <div class="single_volenteer">
                             <div class="volenteer_thumb">
-
                                 <div class="packet-selection">
                                     <label class="card">
                                         <input type="radio" name="radio" value="Paket Hemat sejumlah *5 pax* sebesar *Rp75.000*" checked>
