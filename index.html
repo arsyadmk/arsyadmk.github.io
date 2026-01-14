@@ -10,6 +10,9 @@
   <meta name="keywords" content="html, css, javascript, jquery">
   <meta name="author" content="">
 
+  <!-- Source - https://stackoverflow.com/a Posted by pollux1er, modified by community. See post 'Timeline' for change history Retrieved 2026-01-14, License - CC BY-SA 4.0 -->
+  <link rel="shortcut icon" href="favicon.ico">
+
   <link rel="stylesheet" href="css/vendor/icomoon/style.css">
   <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
   <link rel="stylesheet" href="css/vendor/animate.min.css">
@@ -188,9 +191,9 @@
             <div id="posts" class="row gutter-isotope-item">
 
               <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="portfolio-skpiso.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                <a href="portfolio-skpiso.html" class="portfolio-item ajax-load-page isotope-item" data-id="1">
                   <div class="overlay">
-                    <span class="wrap-icon icon-photo2"></span>
+                    <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>skpiso.id</h3>
                       <p>Website for Certificational Profession in Tourism Industry</p>
@@ -199,6 +202,34 @@
                   <img src="images/project/skpiso_user.png" class="lazyload img-fluid" alt="Images" />
                 </a>
               </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/project/simco.png" class="portfolio-item isotope-item" data-fancybox="gallery" data-caption="Watch" data-id="2">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>simcorporate.com</h3>
+                      <p>HRIS website app for internal company use</p>
+                    </div>
+                  </div>
+                  <img src="images/project/simco.png" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/project/crm_simco.png" class="portfolio-item isotope-item" data-fancybox="gallery" data-caption="Watch" data-id="3">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>crm.simcorporate.com</h3>
+                      <p>Customer Relationship Management website app for a company's relationships and interactions with customers and potential customers</p>
+                    </div>
+                  </div>
+                  <img src="images/project/crm_simco.png" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+
+              <!--CLASS gsap-reveal-img make mobile view become strech-->
 
               <!-- <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
@@ -269,26 +300,6 @@
           </div>
         </div>
       </div>
-
-      <div class="unslate_co--section d-none">
-        <div class="container">
-          <div class="owl-carousel logo-slider">
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-google.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       <div class="unslate_co--section" id="about-section">
         <div class="container">
@@ -382,7 +393,7 @@
 
           <div class="row justify-content-between">
 
-            <div class="col-md-6">
+            <div class="col-md-6 d-none">
               <form method="post" class="form-outline-style-v1" id="contactForm">
                 <div class="form-group row mb-0">
 
@@ -413,16 +424,28 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="contact-info-v1">
                 <div class="gsap-reveal d-block">
                   <span class="d-block contact-info-label">Email</span>
-                  <a href="#" class="contact-info-val">arsyad96m@gmail.com</a>
+                  <a href="mailto:arsyad96m@gmail.com" class="contact-info-val">arsyad96m@gmail.com</a>
                 </div>
                 <div class="gsap-reveal d-block">
                   <span class="d-block contact-info-label">Address</span>
                   <address class="contact-info-val">Sinduadi, Mlati, Sleman,<br> Special Region of Yogyakarta, ID 55284
                   </address>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Linkedin</span>
+                  <a href="https://www.linkedin.com/in/arsyadmk" class="contact-info-val">linkedin.com/in/arsyadmk</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Github</span>
+                  <a href="https://github.com/arsyadmk" class="contact-info-val">github.com/arsyadmk</a>
                 </div>
               </div>
             </div>
@@ -437,14 +460,16 @@
         <div class="row justify-content-center">
           <div class="col-md-7">
 
-            <div class="footer-site-logo"><a href="#">Unfold<span>.</span></a></div>
+            <div class="footer-site-logo"><a href="#">Arsyad<span>mk</span></a></div>
+            <!-- <div class="footer-site-logo"><a href="#">Unfold<span>.</span></a></div> -->
 
             <ul class="footer-site-social">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Dribbble</a></li>
-              <li><a href="#">Behance</a></li>
+              <li><a href="https://github.com/arsyadmk">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/arsyadmk">Linkedin</a></li>
+              <!-- <li><a href="#">Facebook</a></li> -->
+              <!-- <li><a href="#">Instagram</a></li> -->
+              <!-- <li><a href="#">Dribbble</a></li> -->
+              <!-- <li><a href="#">Behance</a></li> -->
             </ul>
 
             <p class="site-copyright">
