@@ -2947,6 +2947,24 @@ var vid_ide = {
 	//watch order
 	//reddit.com/r/anime/comments/mnmzqo/attack_on_titan_viewing_order_guide_2021_edition/
 	//reddit.com/r/anime/comments/9ydrbn/attack_on_titan_viewing_order_guide_spoilerlessoc/
+	// https://www.gamesradar.com/attack-on-titan-watch-order-release-chronological-oad-list/
+	//  cronological
+	//  Attack on Titan: No Regrets Parts 1-2 (OAD)
+	//  Attack on Titan season 1: episodes 1-3
+	//  Attack on Titan: Distress (OAD)
+	//  Attack on Titan: The Sudden Visitor (OAD)
+	//  Attack on Titan Ilse’s Notebook (OAD)
+	//  Attack on Titan season 1, episodes 4-16
+	//  Attack on Titan: Lost Girls: Wall Sina, Goodbye Parts 1-2 (OAD)
+	//  Attack on Titan season 1, episodes 17-25
+	//  Attack on Titan season 2 episodes 26-37
+	//  Attack on Titan season 3, part 1: episodes 38-49
+	//  Attack on Titan: Lost Girls: Lost in the Cruel World (OAD – also alternate reality flashback)
+	//  Attack on Titan season 3, part 2: episodes 50-59 [episodes 56-57 partially set decades before episode 1]
+	//  Attack on Titan season 4 (Final Season), part 1: episodes 60-75
+	//  Attack on Titan season 4 (Final Season), part 2: episodes 76-87
+	//  Attack on Titan Final Chapter Special 1: (episode 88) or Attack on Titan: The Movie: The Last Attack
+	//  Attack on Titan Final Chapter Special 2 (episode 89) or Attack on Titan: The Movie: The Last Attack
 
 	//disscussion
 	//LINK	| HOST 2000
