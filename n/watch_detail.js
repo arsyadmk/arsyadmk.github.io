@@ -2944,6 +2944,7 @@ var vid_ide = {
 	// TV 00 2022-01-10 2022-04-04 snk4p2 (Shingeki no Kyojin: The Final Season Part 2) 				| myanimelist.net/anime/48583
 	// SP 02 2023-03-04 2023-11-05 snk4kh (Shingeki no Kyojin: The Final Season - Kanketsu-hen) 		| myanimelist.net/anime/51535
 
+	//map paradis https://upload.wikimedia.org/wikipedia/commons/9/9d/Walls_of_Paradis.png
 	//watch order
 	//reddit.com/r/anime/comments/mnmzqo/attack_on_titan_viewing_order_guide_2021_edition/
 	//reddit.com/r/anime/comments/9ydrbn/attack_on_titan_viewing_order_guide_spoilerlessoc/
