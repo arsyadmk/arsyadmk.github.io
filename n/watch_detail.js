@@ -2920,7 +2920,7 @@ var vid_ide = {
 	//, "": "" // |  | 
 	},
 
-	// snk: {
+	snk: {
 	//v TV 25 2013-04-07 2013-09-29 snk (Shingeki no Kyojin) 											| myanimelist.net/anime/16498
 	//v SP 01 2013-07-07 2013-07-07 snkahk (Shingeki no Kyojin: Ano Hi Kara) 							| myanimelist.net/anime/19285
 	//v SP 09 2013-07-17 2014-03-19 snkpd (Shingeki no Kyojin Picture Drama) 							| myanimelist.net/anime/19391
@@ -2974,16 +2974,16 @@ var vid_ide = {
 	//event
 	//LINK 	| 2000-00-00 title
 
-	// "2B6nj38AdD0":"Guren no Yumiya" //紅蓮の弓矢
-	//,"wfZeludWDB8":"Utsukushiki Zankoku na Sekai" //美しき残酷な世界
-	//,"W8UNLOOogU4":"Jiyuu no Tsubasa" //自由の翼
-	//,"mWIaFbHG44s":"great escape" //
-	//,"O_mvk2_MXtA":"YAMANAIAME" //
-	//,"iW3NGzslPik":"theDOGS" //
-	//,"Ga90sLZfjMw":"Seishun wa Hanabi no You ni" //青春は花火のように
-	//,"fHpusKj8XVg":"Hangeki no Daichi" //反撃の大地
-	//,"8QPyFlJNmus":"Shinzou wo Sasageyo!" //心臓を捧げよ！
-	//,"sUW4dDWiz-A":"Yuugure no Tori" //夕暮れの鳥
+	"2B6nj38AdD0":"Guren no Yumiya" //紅蓮の弓矢
+	,"wfZeludWDB8":"Utsukushiki Zankoku na Sekai" //美しき残酷な世界
+	,"W8UNLOOogU4":"Jiyuu no Tsubasa" //自由の翼
+	,"mWIaFbHG44s":"great escape" //
+	,"O_mvk2_MXtA":"YAMANAIAME" //
+	,"iW3NGzslPik":"theDOGS" //
+	,"Ga90sLZfjMw":"Seishun wa Hanabi no You ni" //青春は花火のように
+	,"fHpusKj8XVg":"Hangeki no Daichi" //反撃の大地
+	,"8QPyFlJNmus":"Shinzou wo Sasageyo!" //心臓を捧げよ！
+	,"sUW4dDWiz-A":"Yuugure no Tori" //夕暮れの鳥
 	//,"bUowMw-3kcI":"Barricades <MOVIEver.>" //
 	//,"hBdWb34RKwc":"Call your name Gemie" //
 	//,"r1XE8ON8fos":"Red Swan" //
@@ -2995,7 +2995,7 @@ var vid_ide = {
 	//,"Ccidm4djKaM":"Shougeki" //衝撃
 	//,"KHCIO7a3jSI":"The Rumbling" //
 	//,"WPl10ZrhCtk":"Akuma no Ko" //悪魔の子
-	// },
+	},
 
 	// toaru: {
 	//RO
