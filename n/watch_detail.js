@@ -2965,7 +2965,7 @@ var vid_ide = {
 	//  Attack on Titan season 3, part 2: episodes 50-59 [episodes 56-57 partially set decades before episode 1]
 	//  Attack on Titan season 4 (Final Season), part 1: episodes 60-75
 	//  Attack on Titan season 4 (Final Season), part 2: episodes 76-87
-	//  Attack on Titan Final Chapter Special 1: (episode 88) or Attack on Titan: The Movie: The Last Attack
+	//  Attack on Titan Final Chapter Special 1 (episode 88) or Attack on Titan: The Movie: The Last Attack
 	//  Attack on Titan Final Chapter Special 2 (episode 89) or Attack on Titan: The Movie: The Last Attack
 
 	//disscussion
